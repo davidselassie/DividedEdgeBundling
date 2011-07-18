@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleWidthPower</key>
+	<real>1</real>
+	<key>edgeAlpha</key>
+	<real>0.75</real>
+	<key>edgeColorType</key>
+	<integer>1</integer>
+	<key>edgeCoulombConstant</key>
+	<real>0.5</real>
+	<key>edgeCoulombDecay</key>
+	<real>35</real>
+	<key>edgeDeselectAlpha</key>
+	<real>0.05</real>
+	<key>edgeLaneWidth</key>
+	<integer>25</integer>
+	<key>edgeMaxWidth</key>
+	<integer>10</integer>
+	<key>edgeMinWidth</key>
+	<integer>0</integer>
+	<key>edgeSpringConstant</key>
+	<real>0.5</real>
+	<key>nodeSize</key>
+	<real>5</real>
+	<key>nodeSpringConstant</key>
+	<real>0.1</real>
+	<key>nodeSpringRestLength</key>
+	<integer>200</integer>
+	<key>showMesh</key>
+	<false/>
+	<key>showNodes</key>
+	<true/>
+	<key>useCompat</key>
+	<true/>
+	<key>useConnectCompat</key>
+	<true/>
+	<key>useGPUDevice</key>
+	<true/>
+	<key>useNewForce</key>
+	<true/>
+	<key>velocityDamping</key>
+	<real>0.1</real>
+</dict>
+</plist>
