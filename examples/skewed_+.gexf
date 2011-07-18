@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gephi.org/gexf" xmlns:viz="http://www.gephi.org/gexf/viz">
+	<graph defaultedgetype="directed" type="static">
+		<nodes>
+			<node id="0">
+				<viz:position x="-2" y="1" z="0" />
+			</node>
+			<node id="1">
+				<viz:position x="2" y="-1" z="0" />
+			</node>
+			<node id="2">
+				<viz:position x="-2" y="-1" z="0" />
+			</node>
+			<node id="3">
+				<viz:position x="2" y="1" z="0" />
+			</node>
+		</nodes>
+		
+		<edges>
+			<edge id="0" source="0" target="1" />
+			<edge id="1" source="2" target="3" />
+		</edges>
+	</graph>
+</gexf>
+

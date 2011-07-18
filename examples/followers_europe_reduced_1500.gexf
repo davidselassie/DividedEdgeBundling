@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="Ukraine" label="Ukraine">
+        <viz:position x="31.173445" y="48.382885" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Sevilla" label="Sevilla">
+        <viz:position x="-6.001813" y="37.387697" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Italy" label="Italy">
+        <viz:position x="12.573465" y="41.292540" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Potsdam, Berlin, Germany" label="Potsdam, Berlin, Germany">
+        <viz:position x="13.389855" y="52.498890" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Lisbon, Portugal" label="Lisbon, Portugal">
+        <viz:position x="-9.150210" y="38.725735" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Paris" label="Paris">
+        <viz:position x="2.341200" y="48.856930" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Copenhagen, Denmark" label="Copenhagen, Denmark">
+        <viz:position x="12.569355" y="55.676310" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Berlin, Germany" label="Berlin, Germany">
+        <viz:position x="13.376987" y="52.516074" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Madrid, Spain" label="Madrid, Spain">
+        <viz:position x="-3.705774" y="40.420300" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="France" label="France">
+        <viz:position x="2.209360" y="46.211401" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Norway" label="Norway">
+        <viz:position x="17.800665" y="64.574045" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Glasgow, Scotland" label="Glasgow, Scotland">
+        <viz:position x="-4.242511" y="55.857809" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Dublin, Ireland" label="Dublin, Ireland">
+        <viz:position x="-6.248274" y="53.348070" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Cologne, Germany" label="Cologne, Germany">
+        <viz:position x="6.955055" y="50.941655" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Trondheim, Norway" label="Trondheim, Norway">
+        <viz:position x="10.392080" y="63.431005" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Leeds, UK" label="Leeds, UK">
+        <viz:position x="-1.546587" y="53.794494" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Birmingham, UK" label="Birmingham, UK">
+        <viz:position x="-1.908604" y="52.478595" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Oslo, Norway" label="Oslo, Norway">
+        <viz:position x="10.749980" y="59.912280" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Bucharest, Romania" label="Bucharest, Romania">
+        <viz:position x="26.102965" y="44.434295" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Cambridge, UK" label="Cambridge, UK">
+        <viz:position x="0.111565" y="52.209870" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Czech Republic" label="Czech Republic">
+        <viz:position x="15.475265" y="49.803795" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Montpellier, France" label="Montpellier, France">
+        <viz:position x="3.876090" y="43.610855" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Saint-Petersburg, Russia" label="Saint-Petersburg, Russia">
+        <viz:position x="30.306115" y="59.933140" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Moscow" label="Moscow">
+        <viz:position x="37.614975" y="55.756950" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Brighton, UK" label="Brighton, UK">
+        <viz:position x="-0.134429" y="50.828481" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Milan, Italy" label="Milan, Italy">
+        <viz:position x="9.181030" y="45.468945" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Nantes, France" label="Nantes, France">
+        <viz:position x="-1.553059" y="47.218115" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Austria" label="Austria">
+        <viz:position x="13.345770" y="47.696505" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Bath, UK" label="Bath, UK">
+        <viz:position x="-2.361324" y="51.385030" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Manchester, UK" label="Manchester, UK">
+        <viz:position x="-2.248818" y="53.479605" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Germany" label="Germany">
+        <viz:position x="10.454145" y="51.164175" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Denmark" label="Denmark">
+        <viz:position x="11.633980" y="56.155540" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Belgium" label="Belgium">
+        <viz:position x="4.476770" y="50.500990" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Karlsruhe, Germany" label="Karlsruhe, Germany">
+        <viz:position x="8.408695" y="49.010760" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Brussels" label="Brussels">
+        <viz:position x="4.349685" y="50.848385" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Stockholm, Sweden" label="Stockholm, Sweden">
+        <viz:position x="18.062840" y="59.332280" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Spain" label="Spain">
+        <viz:position x="-6.916455" y="35.712709" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Athens, Greece" label="Athens, Greece">
+        <viz:position x="23.736415" y="37.976150" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Netherlands" label="Netherlands">
+        <viz:position x="5.292970" y="52.152355" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Edinburgh, UK" label="Edinburgh, UK">
+        <viz:position x="-3.202774" y="55.954155" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Coimbra, Portugal" label="Coimbra, Portugal">
+        <viz:position x="-8.416345" y="40.210812" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Lyon, France" label="Lyon, France">
+        <viz:position x="4.828970" y="45.759399" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Minsk, Belarus" label="Minsk, Belarus">
+        <viz:position x="27.563100" y="53.902555" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Ghent, Belgium" label="Ghent, Belgium">
+        <viz:position x="3.728569" y="51.055633" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Poland" label="Poland">
+        <viz:position x="19.134295" y="51.918917" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Rome, Italy" label="Rome, Italy">
+        <viz:position x="12.495760" y="41.903110" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Barcelona" label="Barcelona">
+        <viz:position x="2.168745" y="41.385589" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Sweden" label="Sweden">
+        <viz:position x="17.566220" y="62.198448" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Lausanne, Switzerland" label="Lausanne, Switzerland">
+        <viz:position x="6.632335" y="46.519595" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Bremen, Germany" label="Bremen, Germany">
+        <viz:position x="8.804667" y="53.075166" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Switzerland" label="Switzerland">
+        <viz:position x="8.223950" y="46.813200" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Malmö, Sweden" label="Malmö, Sweden">
+        <viz:position x="13.001560" y="55.596640" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Leipzig, Germany" label="Leipzig, Germany">
+        <viz:position x="12.385940" y="51.345200" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Gothenburg, Sweden" label="Gothenburg, Sweden">
+        <viz:position x="11.967105" y="57.701235" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Porto, Portugal" label="Porto, Portugal">
+        <viz:position x="-8.610314" y="41.149450" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Amsterdam, The Netherlands" label="Amsterdam, The Netherlands">
+        <viz:position x="4.893190" y="52.373119" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Chemnitz, Germany" label="Chemnitz, Germany">
+        <viz:position x="12.921435" y="50.836375" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Helsinki, Finland" label="Helsinki, Finland">
+        <viz:position x="24.932580" y="60.171160" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Saint-Laurent-du-Var, France" label="Saint-Laurent-du-Var, France">
+        <viz:position x="7.190097" y="43.673520" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Vienna, Austria" label="Vienna, Austria">
+        <viz:position x="16.368805" y="48.202548" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Zurich, Switzerland" label="Zurich, Switzerland">
+        <viz:position x="8.539550" y="47.377060" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Graz, Austria" label="Graz, Austria">
+        <viz:position x="15.443180" y="47.068565" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Warsaw, Poland" label="Warsaw, Poland">
+        <viz:position x="21.009485" y="52.235370" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="London" label="London">
+        <viz:position x="-0.127144" y="51.506325" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Prague, Czech Republic" label="Prague, Czech Republic">
+        <viz:position x="14.433230" y="50.079083" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="UK" label="UK">
+        <viz:position x="-5.822485" y="55.008390" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Munich, Germany" label="Munich, Germany">
+        <viz:position x="11.577531" y="48.136415" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Amsterdam" label="Amsterdam">
+        <viz:position x="4.893195" y="52.373120" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+      <node id="Hamburg, Germany" label="Hamburg, Germany">
+        <viz:position x="9.992455" y="53.553345" z="0" xmlns:viz="http://www.gexf.net/1.1draft/viz" />
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Ukraine" target="Ukraine" weight="3" />
+      <edge id="1" source="Ukraine" target="Saint-Petersburg, Russia" weight="2" />
+      <edge id="2" source="Ukraine" target="Moscow" weight="6" />
+      <edge id="3" source="Ukraine" target="Munich, Germany" weight="1" />
+      <edge id="4" source="Ukraine" target="Cologne, Germany" weight="1" />
+      <edge id="5" source="Ukraine" target="Switzerland" weight="1" />
+      <edge id="6" source="Ukraine" target="Manchester, UK" weight="1" />
+      <edge id="7" source="Sevilla" target="Sevilla" weight="29" />
+      <edge id="8" source="Sevilla" target="Madrid, Spain" weight="3" />
+      <edge id="9" source="Sevilla" target="Berlin, Germany" weight="2" />
+      <edge id="10" source="Sevilla" target="Nantes, France" weight="1" />
+      <edge id="11" source="Sevilla" target="Barcelona" weight="1" />
+      <edge id="12" source="Sevilla" target="Austria" weight="1" />
+      <edge id="13" source="Sevilla" target="Graz, Austria" weight="1" />
+      <edge id="14" source="Sevilla" target="Munich, Germany" weight="1" />
+      <edge id="15" source="Sevilla" target="Spain" weight="2" />
+      <edge id="16" source="Italy" target="Italy" weight="30" />
+      <edge id="17" source="Italy" target="Paris" weight="2" />
+      <edge id="18" source="Italy" target="Copenhagen, Denmark" weight="2" />
+      <edge id="19" source="Italy" target="Berlin, Germany" weight="1" />
+      <edge id="20" source="Italy" target="France" weight="2" />
+      <edge id="21" source="Italy" target="Bucharest, Romania" weight="1" />
+      <edge id="22" source="Italy" target="Madrid, Spain" weight="2" />
+      <edge id="23" source="Italy" target="Milan, Italy" weight="2" />
+      <edge id="24" source="Italy" target="Germany" weight="3" />
+      <edge id="25" source="Italy" target="Amsterdam, The Netherlands" weight="1" />
+      <edge id="26" source="Italy" target="Stockholm, Sweden" weight="1" />
+      <edge id="27" source="Italy" target="Spain" weight="1" />
+      <edge id="28" source="Italy" target="Netherlands" weight="1" />
+      <edge id="29" source="Italy" target="Coimbra, Portugal" weight="1" />
+      <edge id="30" source="Italy" target="Poland" weight="1" />
+      <edge id="31" source="Italy" target="Rome, Italy" weight="9" />
+      <edge id="32" source="Italy" target="Sweden" weight="1" />
+      <edge id="33" source="Italy" target="Switzerland" weight="2" />
+      <edge id="34" source="Italy" target="London" weight="4" />
+      <edge id="35" source="Italy" target="Prague, Czech Republic" weight="1" />
+      <edge id="36" source="Italy" target="UK" weight="3" />
+      <edge id="37" source="Italy" target="Moscow" weight="1" />
+      <edge id="38" source="Potsdam, Berlin, Germany" target="Leipzig, Germany" weight="1" />
+      <edge id="39" source="Potsdam, Berlin, Germany" target="Lyon, France" weight="1" />
+      <edge id="40" source="Potsdam, Berlin, Germany" target="Denmark" weight="2" />
+      <edge id="41" source="Potsdam, Berlin, Germany" target="Berlin, Germany" weight="7" />
+      <edge id="42" source="Potsdam, Berlin, Germany" target="Milan, Italy" weight="1" />
+      <edge id="43" source="Potsdam, Berlin, Germany" target="Amsterdam, The Netherlands" weight="1" />
+      <edge id="44" source="Potsdam, Berlin, Germany" target="Karlsruhe, Germany" weight="1" />
+      <edge id="45" source="Potsdam, Berlin, Germany" target="Cologne, Germany" weight="2" />
+      <edge id="46" source="Potsdam, Berlin, Germany" target="Germany" weight="1" />
+      <edge id="47" source="Potsdam, Berlin, Germany" target="Brussels" weight="1" />
+      <edge id="48" source="Potsdam, Berlin, Germany" target="Hamburg, Germany" weight="2" />
+      <edge id="49" source="Lisbon, Portugal" target="Porto, Portugal" weight="10" />
+      <edge id="50" source="Lisbon, Portugal" target="Netherlands" weight="1" />
+      <edge id="51" source="Lisbon, Portugal" target="Italy" weight="1" />
+      <edge id="52" source="Lisbon, Portugal" target="Coimbra, Portugal" weight="15" />
+      <edge id="53" source="Lisbon, Portugal" target="Lisbon, Portugal" weight="35" />
+      <edge id="54" source="Lisbon, Portugal" target="Copenhagen, Denmark" weight="1" />
+      <edge id="55" source="Lisbon, Portugal" target="Berlin, Germany" weight="1" />
+      <edge id="56" source="Lisbon, Portugal" target="London" weight="4" />
+      <edge id="57" source="Lisbon, Portugal" target="Prague, Czech Republic" weight="1" />
+      <edge id="58" source="Lisbon, Portugal" target="Amsterdam" weight="2" />
+      <edge id="59" source="Lisbon, Portugal" target="Birmingham, UK" weight="1" />
+      <edge id="60" source="Paris" target="Italy" weight="5" />
+      <edge id="61" source="Paris" target="Czech Republic" weight="1" />
+      <edge id="62" source="Paris" target="Lisbon, Portugal" weight="2" />
+      <edge id="63" source="Paris" target="Paris" weight="314" />
+      <edge id="64" source="Paris" target="Copenhagen, Denmark" weight="2" />
+      <edge id="65" source="Paris" target="Berlin, Germany" weight="22" />
+      <edge id="66" source="Paris" target="France" weight="44" />
+      <edge id="67" source="Paris" target="Netherlands" weight="4" />
+      <edge id="68" source="Paris" target="Cologne, Germany" weight="6" />
+      <edge id="69" source="Paris" target="Bucharest, Romania" weight="2" />
+      <edge id="70" source="Paris" target="Cambridge, UK" weight="3" />
+      <edge id="71" source="Paris" target="Montpellier, France" weight="21" />
+      <edge id="72" source="Paris" target="Manchester, UK" weight="2" />
+      <edge id="73" source="Paris" target="Moscow" weight="13" />
+      <edge id="74" source="Paris" target="Brighton, UK" weight="1" />
+      <edge id="75" source="Paris" target="Milan, Italy" weight="3" />
+      <edge id="76" source="Paris" target="Austria" weight="3" />
+      <edge id="77" source="Paris" target="Germany" weight="7" />
+      <edge id="78" source="Paris" target="Saint-Petersburg, Russia" weight="7" />
+      <edge id="79" source="Paris" target="Brussels" weight="4" />
+      <edge id="80" source="Paris" target="Stockholm, Sweden" weight="7" />
+      <edge id="81" source="Paris" target="Spain" weight="1" />
+      <edge id="82" source="Paris" target="Athens, Greece" weight="2" />
+      <edge id="83" source="Paris" target="Rome, Italy" weight="1" />
+      <edge id="84" source="Paris" target="Coimbra, Portugal" weight="1" />
+      <edge id="85" source="Paris" target="Lyon, France" weight="33" />
+      <edge id="86" source="Paris" target="Minsk, Belarus" weight="3" />
+      <edge id="87" source="Paris" target="Denmark" weight="1" />
+      <edge id="88" source="Paris" target="Poland" weight="1" />
+      <edge id="89" source="Paris" target="Madrid, Spain" weight="3" />
+      <edge id="90" source="Paris" target="Barcelona" weight="4" />
+      <edge id="91" source="Paris" target="Sweden" weight="1" />
+      <edge id="92" source="Paris" target="Lausanne, Switzerland" weight="8" />
+      <edge id="93" source="Paris" target="Switzerland" weight="4" />
+      <edge id="94" source="Paris" target="Malmö, Sweden" weight="4" />
+      <edge id="95" source="Paris" target="Leipzig, Germany" weight="4" />
+      <edge id="96" source="Paris" target="Gothenburg, Sweden" weight="3" />
+      <edge id="97" source="Paris" target="Amsterdam, The Netherlands" weight="2" />
+      <edge id="98" source="Paris" target="Sevilla" weight="2" />
+      <edge id="99" source="Paris" target="Saint-Laurent-du-Var, France" weight="17" />
+      <edge id="100" source="Paris" target="Zurich, Switzerland" weight="5" />
+      <edge id="101" source="Paris" target="Nantes, France" weight="29" />
+      <edge id="102" source="Paris" target="Warsaw, Poland" weight="2" />
+      <edge id="103" source="Paris" target="London" weight="15" />
+      <edge id="104" source="Paris" target="UK" weight="2" />
+      <edge id="105" source="Paris" target="Munich, Germany" weight="6" />
+      <edge id="106" source="Paris" target="Amsterdam" weight="8" />
+      <edge id="107" source="Paris" target="Hamburg, Germany" weight="4" />
+      <edge id="108" source="Copenhagen, Denmark" target="Paris" weight="1" />
+      <edge id="109" source="Copenhagen, Denmark" target="Copenhagen, Denmark" weight="51" />
+      <edge id="110" source="Copenhagen, Denmark" target="Berlin, Germany" weight="1" />
+      <edge id="111" source="Copenhagen, Denmark" target="Oslo, Norway" weight="1" />
+      <edge id="112" source="Copenhagen, Denmark" target="Bucharest, Romania" weight="4" />
+      <edge id="113" source="Copenhagen, Denmark" target="Lausanne, Switzerland" weight="1" />
+      <edge id="114" source="Copenhagen, Denmark" target="Norway" weight="1" />
+      <edge id="115" source="Copenhagen, Denmark" target="Moscow" weight="5" />
+      <edge id="116" source="Copenhagen, Denmark" target="Brighton, UK" weight="1" />
+      <edge id="117" source="Copenhagen, Denmark" target="Helsinki, Finland" weight="1" />
+      <edge id="118" source="Copenhagen, Denmark" target="Germany" weight="1" />
+      <edge id="119" source="Copenhagen, Denmark" target="Stockholm, Sweden" weight="3" />
+      <edge id="120" source="Copenhagen, Denmark" target="Cambridge, UK" weight="2" />
+      <edge id="121" source="Copenhagen, Denmark" target="Edinburgh, UK" weight="1" />
+      <edge id="122" source="Copenhagen, Denmark" target="Denmark" weight="25" />
+      <edge id="123" source="Copenhagen, Denmark" target="Poland" weight="1" />
+      <edge id="124" source="Copenhagen, Denmark" target="Barcelona" weight="1" />
+      <edge id="125" source="Copenhagen, Denmark" target="Sweden" weight="1" />
+      <edge id="126" source="Copenhagen, Denmark" target="Malmö, Sweden" weight="4" />
+      <edge id="127" source="Copenhagen, Denmark" target="Gothenburg, Sweden" weight="2" />
+      <edge id="128" source="Copenhagen, Denmark" target="Sevilla" weight="1" />
+      <edge id="129" source="Copenhagen, Denmark" target="Vienna, Austria" weight="1" />
+      <edge id="130" source="Copenhagen, Denmark" target="Austria" weight="1" />
+      <edge id="131" source="Copenhagen, Denmark" target="Warsaw, Poland" weight="2" />
+      <edge id="132" source="Copenhagen, Denmark" target="London" weight="4" />
+      <edge id="133" source="Copenhagen, Denmark" target="Prague, Czech Republic" weight="2" />
+      <edge id="134" source="Copenhagen, Denmark" target="Graz, Austria" weight="2" />
+      <edge id="135" source="Berlin, Germany" target="Athens, Greece" weight="4" />
+      <edge id="136" source="Berlin, Germany" target="Leeds, UK" weight="1" />
+      <edge id="137" source="Berlin, Germany" target="Potsdam, Berlin, Germany" weight="27" />
+      <edge id="138" source="Berlin, Germany" target="Paris" weight="15" />
+      <edge id="139" source="Berlin, Germany" target="Copenhagen, Denmark" weight="2" />
+      <edge id="140" source="Berlin, Germany" target="Berlin, Germany" weight="434" />
+      <edge id="141" source="Berlin, Germany" target="France" weight="4" />
+      <edge id="142" source="Berlin, Germany" target="Norway" weight="2" />
+      <edge id="143" source="Berlin, Germany" target="Netherlands" weight="6" />
+      <edge id="144" source="Berlin, Germany" target="Dublin, Ireland" weight="4" />
+      <edge id="145" source="Berlin, Germany" target="Cologne, Germany" weight="28" />
+      <edge id="146" source="Berlin, Germany" target="Italy" weight="3" />
+      <edge id="147" source="Berlin, Germany" target="Oslo, Norway" weight="7" />
+      <edge id="148" source="Berlin, Germany" target="Manchester, UK" weight="4" />
+      <edge id="149" source="Berlin, Germany" target="Cambridge, UK" weight="3" />
+      <edge id="150" source="Berlin, Germany" target="Czech Republic" weight="2" />
+      <edge id="151" source="Berlin, Germany" target="Bath, UK" weight="5" />
+      <edge id="152" source="Berlin, Germany" target="Bucharest, Romania" weight="3" />
+      <edge id="153" source="Berlin, Germany" target="Moscow" weight="10" />
+      <edge id="154" source="Berlin, Germany" target="Brighton, UK" weight="5" />
+      <edge id="155" source="Berlin, Germany" target="Helsinki, Finland" weight="1" />
+      <edge id="156" source="Berlin, Germany" target="Austria" weight="5" />
+      <edge id="157" source="Berlin, Germany" target="Germany" weight="62" />
+      <edge id="158" source="Berlin, Germany" target="Belgium" weight="1" />
+      <edge id="159" source="Berlin, Germany" target="Karlsruhe, Germany" weight="4" />
+      <edge id="160" source="Berlin, Germany" target="Brussels" weight="4" />
+      <edge id="161" source="Berlin, Germany" target="Stockholm, Sweden" weight="15" />
+      <edge id="162" source="Berlin, Germany" target="Spain" weight="1" />
+      <edge id="163" source="Berlin, Germany" target="Ukraine" weight="1" />
+      <edge id="164" source="Berlin, Germany" target="Rome, Italy" weight="1" />
+      <edge id="165" source="Berlin, Germany" target="Edinburgh, UK" weight="2" />
+      <edge id="166" source="Berlin, Germany" target="Coimbra, Portugal" weight="2" />
+      <edge id="167" source="Berlin, Germany" target="Lyon, France" weight="1" />
+      <edge id="168" source="Berlin, Germany" target="Minsk, Belarus" weight="1" />
+      <edge id="169" source="Berlin, Germany" target="Denmark" weight="6" />
+      <edge id="170" source="Berlin, Germany" target="Poland" weight="1" />
+      <edge id="171" source="Berlin, Germany" target="Madrid, Spain" weight="7" />
+      <edge id="172" source="Berlin, Germany" target="Barcelona" weight="8" />
+      <edge id="173" source="Berlin, Germany" target="UK" weight="10" />
+      <edge id="174" source="Berlin, Germany" target="Sweden" weight="9" />
+      <edge id="175" source="Berlin, Germany" target="Montpellier, France" weight="1" />
+      <edge id="176" source="Berlin, Germany" target="Bremen, Germany" weight="12" />
+      <edge id="177" source="Berlin, Germany" target="Switzerland" weight="7" />
+      <edge id="178" source="Berlin, Germany" target="Malmö, Sweden" weight="2" />
+      <edge id="179" source="Berlin, Germany" target="Leipzig, Germany" weight="6" />
+      <edge id="180" source="Berlin, Germany" target="Gothenburg, Sweden" weight="3" />
+      <edge id="181" source="Berlin, Germany" target="Glasgow, Scotland" weight="2" />
+      <edge id="182" source="Berlin, Germany" target="Milan, Italy" weight="2" />
+      <edge id="183" source="Berlin, Germany" target="Lausanne, Switzerland" weight="1" />
+      <edge id="184" source="Berlin, Germany" target="Chemnitz, Germany" weight="2" />
+      <edge id="185" source="Berlin, Germany" target="Porto, Portugal" weight="1" />
+      <edge id="186" source="Berlin, Germany" target="Sevilla" weight="5" />
+      <edge id="187" source="Berlin, Germany" target="Saint-Laurent-du-Var, France" weight="2" />
+      <edge id="188" source="Berlin, Germany" target="Vienna, Austria" weight="16" />
+      <edge id="189" source="Berlin, Germany" target="Zurich, Switzerland" weight="10" />
+      <edge id="190" source="Berlin, Germany" target="Nantes, France" weight="3" />
+      <edge id="191" source="Berlin, Germany" target="Warsaw, Poland" weight="5" />
+      <edge id="192" source="Berlin, Germany" target="London" weight="38" />
+      <edge id="193" source="Berlin, Germany" target="Prague, Czech Republic" weight="3" />
+      <edge id="194" source="Berlin, Germany" target="Graz, Austria" weight="5" />
+      <edge id="195" source="Berlin, Germany" target="Munich, Germany" weight="26" />
+      <edge id="196" source="Berlin, Germany" target="Amsterdam" weight="10" />
+      <edge id="197" source="Berlin, Germany" target="Hamburg, Germany" weight="33" />
+      <edge id="198" source="Madrid, Spain" target="Sevilla" weight="3" />
+      <edge id="199" source="Madrid, Spain" target="Paris" weight="2" />
+      <edge id="200" source="Madrid, Spain" target="Denmark" weight="1" />
+      <edge id="201" source="Madrid, Spain" target="Madrid, Spain" weight="142" />
+      <edge id="202" source="Madrid, Spain" target="Berlin, Germany" weight="1" />
+      <edge id="203" source="Madrid, Spain" target="Barcelona" weight="27" />
+      <edge id="204" source="Madrid, Spain" target="Sweden" weight="2" />
+      <edge id="205" source="Madrid, Spain" target="Amsterdam" weight="4" />
+      <edge id="206" source="Madrid, Spain" target="Germany" weight="1" />
+      <edge id="207" source="Madrid, Spain" target="Spain" weight="18" />
+      <edge id="208" source="Madrid, Spain" target="Copenhagen, Denmark" weight="1" />
+      <edge id="209" source="Madrid, Spain" target="London" weight="2" />
+      <edge id="210" source="Madrid, Spain" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="211" source="Madrid, Spain" target="Cambridge, UK" weight="2" />
+      <edge id="212" source="Madrid, Spain" target="Gothenburg, Sweden" weight="2" />
+      <edge id="213" source="France" target="Italy" weight="1" />
+      <edge id="214" source="France" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="215" source="France" target="Paris" weight="52" />
+      <edge id="216" source="France" target="Berlin, Germany" weight="1" />
+      <edge id="217" source="France" target="France" weight="11" />
+      <edge id="218" source="France" target="Cambridge, UK" weight="1" />
+      <edge id="219" source="France" target="Oslo, Norway" weight="1" />
+      <edge id="220" source="France" target="Lausanne, Switzerland" weight="1" />
+      <edge id="221" source="France" target="Moscow" weight="3" />
+      <edge id="222" source="France" target="Germany" weight="2" />
+      <edge id="223" source="France" target="Belgium" weight="2" />
+      <edge id="224" source="France" target="Karlsruhe, Germany" weight="1" />
+      <edge id="225" source="France" target="Brussels" weight="2" />
+      <edge id="226" source="France" target="Netherlands" weight="1" />
+      <edge id="227" source="France" target="Edinburgh, UK" weight="1" />
+      <edge id="228" source="France" target="Lyon, France" weight="3" />
+      <edge id="229" source="France" target="UK" weight="2" />
+      <edge id="230" source="France" target="Montpellier, France" weight="1" />
+      <edge id="231" source="France" target="Switzerland" weight="2" />
+      <edge id="232" source="France" target="Vienna, Austria" weight="3" />
+      <edge id="233" source="France" target="Nantes, France" weight="6" />
+      <edge id="234" source="France" target="London" weight="2" />
+      <edge id="235" source="France" target="Graz, Austria" weight="1" />
+      <edge id="236" source="France" target="Munich, Germany" weight="2" />
+      <edge id="237" source="France" target="Hamburg, Germany" weight="4" />
+      <edge id="238" source="Norway" target="Chemnitz, Germany" weight="1" />
+      <edge id="239" source="Norway" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="240" source="Norway" target="Paris" weight="1" />
+      <edge id="241" source="Norway" target="Copenhagen, Denmark" weight="1" />
+      <edge id="242" source="Norway" target="Berlin, Germany" weight="1" />
+      <edge id="243" source="Norway" target="France" weight="2" />
+      <edge id="244" source="Norway" target="Trondheim, Norway" weight="11" />
+      <edge id="245" source="Norway" target="Italy" weight="1" />
+      <edge id="246" source="Norway" target="Oslo, Norway" weight="31" />
+      <edge id="247" source="Norway" target="Norway" weight="15" />
+      <edge id="248" source="Norway" target="Austria" weight="1" />
+      <edge id="249" source="Norway" target="Germany" weight="1" />
+      <edge id="250" source="Norway" target="Belgium" weight="2" />
+      <edge id="251" source="Norway" target="Karlsruhe, Germany" weight="1" />
+      <edge id="252" source="Norway" target="Brussels" weight="1" />
+      <edge id="253" source="Norway" target="Graz, Austria" weight="1" />
+      <edge id="254" source="Norway" target="Denmark" weight="1" />
+      <edge id="255" source="Norway" target="Leipzig, Germany" weight="2" />
+      <edge id="256" source="Norway" target="Vienna, Austria" weight="2" />
+      <edge id="257" source="Norway" target="Nantes, France" weight="1" />
+      <edge id="258" source="Norway" target="London" weight="1" />
+      <edge id="259" source="Norway" target="UK" weight="1" />
+      <edge id="260" source="Norway" target="Munich, Germany" weight="2" />
+      <edge id="261" source="Norway" target="Amsterdam" weight="3" />
+      <edge id="262" source="Glasgow, Scotland" target="Glasgow, Scotland" weight="15" />
+      <edge id="263" source="Glasgow, Scotland" target="Italy" weight="1" />
+      <edge id="264" source="Glasgow, Scotland" target="Edinburgh, UK" weight="4" />
+      <edge id="265" source="Glasgow, Scotland" target="Paris" weight="1" />
+      <edge id="266" source="Glasgow, Scotland" target="Berlin, Germany" weight="1" />
+      <edge id="267" source="Glasgow, Scotland" target="London" weight="8" />
+      <edge id="268" source="Glasgow, Scotland" target="UK" weight="2" />
+      <edge id="269" source="Glasgow, Scotland" target="Germany" weight="1" />
+      <edge id="270" source="Glasgow, Scotland" target="Stockholm, Sweden" weight="1" />
+      <edge id="271" source="Dublin, Ireland" target="Chemnitz, Germany" weight="1" />
+      <edge id="272" source="Dublin, Ireland" target="Czech Republic" weight="1" />
+      <edge id="273" source="Dublin, Ireland" target="Copenhagen, Denmark" weight="1" />
+      <edge id="274" source="Dublin, Ireland" target="Berlin, Germany" weight="5" />
+      <edge id="275" source="Dublin, Ireland" target="France" weight="1" />
+      <edge id="276" source="Dublin, Ireland" target="Glasgow, Scotland" weight="1" />
+      <edge id="277" source="Dublin, Ireland" target="Dublin, Ireland" weight="23" />
+      <edge id="278" source="Dublin, Ireland" target="Italy" weight="2" />
+      <edge id="279" source="Dublin, Ireland" target="Manchester, UK" weight="1" />
+      <edge id="280" source="Dublin, Ireland" target="Moscow" weight="7" />
+      <edge id="281" source="Dublin, Ireland" target="Helsinki, Finland" weight="1" />
+      <edge id="282" source="Dublin, Ireland" target="Germany" weight="3" />
+      <edge id="283" source="Dublin, Ireland" target="Brussels" weight="1" />
+      <edge id="284" source="Dublin, Ireland" target="Stockholm, Sweden" weight="1" />
+      <edge id="285" source="Dublin, Ireland" target="Netherlands" weight="1" />
+      <edge id="286" source="Dublin, Ireland" target="Graz, Austria" weight="1" />
+      <edge id="287" source="Dublin, Ireland" target="Denmark" weight="2" />
+      <edge id="288" source="Dublin, Ireland" target="Sweden" weight="1" />
+      <edge id="289" source="Dublin, Ireland" target="Gothenburg, Sweden" weight="1" />
+      <edge id="290" source="Dublin, Ireland" target="Vienna, Austria" weight="2" />
+      <edge id="291" source="Dublin, Ireland" target="Zurich, Switzerland" weight="1" />
+      <edge id="292" source="Dublin, Ireland" target="Austria" weight="1" />
+      <edge id="293" source="Dublin, Ireland" target="London" weight="5" />
+      <edge id="294" source="Dublin, Ireland" target="Prague, Czech Republic" weight="1" />
+      <edge id="295" source="Dublin, Ireland" target="UK" weight="4" />
+      <edge id="296" source="Cologne, Germany" target="Cologne, Germany" weight="65" />
+      <edge id="297" source="Cologne, Germany" target="Lausanne, Switzerland" weight="1" />
+      <edge id="298" source="Cologne, Germany" target="Potsdam, Berlin, Germany" weight="2" />
+      <edge id="299" source="Cologne, Germany" target="Paris" weight="1" />
+      <edge id="300" source="Cologne, Germany" target="Berlin, Germany" weight="21" />
+      <edge id="301" source="Cologne, Germany" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="302" source="Cologne, Germany" target="Zurich, Switzerland" weight="1" />
+      <edge id="303" source="Cologne, Germany" target="Switzerland" weight="1" />
+      <edge id="304" source="Cologne, Germany" target="Bath, UK" weight="4" />
+      <edge id="305" source="Cologne, Germany" target="London" weight="4" />
+      <edge id="306" source="Cologne, Germany" target="Bremen, Germany" weight="5" />
+      <edge id="307" source="Cologne, Germany" target="UK" weight="1" />
+      <edge id="308" source="Cologne, Germany" target="Amsterdam" weight="2" />
+      <edge id="309" source="Cologne, Germany" target="Munich, Germany" weight="5" />
+      <edge id="310" source="Cologne, Germany" target="Germany" weight="13" />
+      <edge id="311" source="Cologne, Germany" target="Malmö, Sweden" weight="1" />
+      <edge id="312" source="Cologne, Germany" target="Hamburg, Germany" weight="9" />
+      <edge id="313" source="Trondheim, Norway" target="London" weight="2" />
+      <edge id="314" source="Trondheim, Norway" target="Norway" weight="7" />
+      <edge id="315" source="Trondheim, Norway" target="Oslo, Norway" weight="14" />
+      <edge id="316" source="Trondheim, Norway" target="Manchester, UK" weight="1" />
+      <edge id="317" source="Trondheim, Norway" target="Trondheim, Norway" weight="43" />
+      <edge id="318" source="Leeds, UK" target="Lausanne, Switzerland" weight="1" />
+      <edge id="319" source="Leeds, UK" target="Leeds, UK" weight="28" />
+      <edge id="320" source="Leeds, UK" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="321" source="Leeds, UK" target="Paris" weight="1" />
+      <edge id="322" source="Leeds, UK" target="Manchester, UK" weight="12" />
+      <edge id="323" source="Leeds, UK" target="Moscow" weight="1" />
+      <edge id="324" source="Leeds, UK" target="Madrid, Spain" weight="1" />
+      <edge id="325" source="Leeds, UK" target="Switzerland" weight="2" />
+      <edge id="326" source="Leeds, UK" target="Austria" weight="1" />
+      <edge id="327" source="Leeds, UK" target="London" weight="20" />
+      <edge id="328" source="Leeds, UK" target="Amsterdam, The Netherlands" weight="1" />
+      <edge id="329" source="Leeds, UK" target="UK" weight="10" />
+      <edge id="330" source="Leeds, UK" target="Denmark" weight="1" />
+      <edge id="331" source="Leeds, UK" target="Munich, Germany" weight="1" />
+      <edge id="332" source="Leeds, UK" target="Dublin, Ireland" weight="1" />
+      <edge id="333" source="Leeds, UK" target="Leipzig, Germany" weight="2" />
+      <edge id="334" source="Leeds, UK" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="335" source="Leeds, UK" target="Poland" weight="1" />
+      <edge id="336" source="Leeds, UK" target="Hamburg, Germany" weight="1" />
+      <edge id="337" source="Birmingham, UK" target="Chemnitz, Germany" weight="2" />
+      <edge id="338" source="Birmingham, UK" target="Manchester, UK" weight="1" />
+      <edge id="339" source="Birmingham, UK" target="Poland" weight="3" />
+      <edge id="340" source="Birmingham, UK" target="Sweden" weight="1" />
+      <edge id="341" source="Birmingham, UK" target="Warsaw, Poland" weight="4" />
+      <edge id="342" source="Birmingham, UK" target="London" weight="5" />
+      <edge id="343" source="Birmingham, UK" target="UK" weight="3" />
+      <edge id="344" source="Birmingham, UK" target="Copenhagen, Denmark" weight="2" />
+      <edge id="345" source="Birmingham, UK" target="Bucharest, Romania" weight="1" />
+      <edge id="346" source="Birmingham, UK" target="Germany" weight="1" />
+      <edge id="347" source="Birmingham, UK" target="Brussels" weight="1" />
+      <edge id="348" source="Birmingham, UK" target="Birmingham, UK" weight="8" />
+      <edge id="349" source="Birmingham, UK" target="Hamburg, Germany" weight="1" />
+      <edge id="350" source="Oslo, Norway" target="Chemnitz, Germany" weight="1" />
+      <edge id="351" source="Oslo, Norway" target="Berlin, Germany" weight="4" />
+      <edge id="352" source="Oslo, Norway" target="Norway" weight="21" />
+      <edge id="353" source="Oslo, Norway" target="Netherlands" weight="2" />
+      <edge id="354" source="Oslo, Norway" target="Trondheim, Norway" weight="24" />
+      <edge id="355" source="Oslo, Norway" target="Italy" weight="2" />
+      <edge id="356" source="Oslo, Norway" target="Oslo, Norway" weight="160" />
+      <edge id="357" source="Oslo, Norway" target="Bucharest, Romania" weight="2" />
+      <edge id="358" source="Oslo, Norway" target="Birmingham, UK" weight="1" />
+      <edge id="359" source="Oslo, Norway" target="Moscow" weight="4" />
+      <edge id="360" source="Oslo, Norway" target="Brighton, UK" weight="2" />
+      <edge id="361" source="Oslo, Norway" target="Manchester, UK" weight="1" />
+      <edge id="362" source="Oslo, Norway" target="Germany" weight="4" />
+      <edge id="363" source="Oslo, Norway" target="Brussels" weight="1" />
+      <edge id="364" source="Oslo, Norway" target="Stockholm, Sweden" weight="4" />
+      <edge id="365" source="Oslo, Norway" target="Cambridge, UK" weight="1" />
+      <edge id="366" source="Oslo, Norway" target="Edinburgh, UK" weight="1" />
+      <edge id="367" source="Oslo, Norway" target="Denmark" weight="3" />
+      <edge id="368" source="Oslo, Norway" target="Sweden" weight="2" />
+      <edge id="369" source="Oslo, Norway" target="Switzerland" weight="3" />
+      <edge id="370" source="Oslo, Norway" target="Malmö, Sweden" weight="1" />
+      <edge id="371" source="Oslo, Norway" target="Leipzig, Germany" weight="1" />
+      <edge id="372" source="Oslo, Norway" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="373" source="Oslo, Norway" target="Vienna, Austria" weight="4" />
+      <edge id="374" source="Oslo, Norway" target="Zurich, Switzerland" weight="1" />
+      <edge id="375" source="Oslo, Norway" target="Austria" weight="1" />
+      <edge id="376" source="Oslo, Norway" target="Warsaw, Poland" weight="1" />
+      <edge id="377" source="Oslo, Norway" target="London" weight="15" />
+      <edge id="378" source="Oslo, Norway" target="UK" weight="4" />
+      <edge id="379" source="Oslo, Norway" target="Munich, Germany" weight="1" />
+      <edge id="380" source="Oslo, Norway" target="Amsterdam" weight="1" />
+      <edge id="381" source="Oslo, Norway" target="Hamburg, Germany" weight="2" />
+      <edge id="382" source="Bucharest, Romania" target="UK" weight="1" />
+      <edge id="383" source="Bucharest, Romania" target="Paris" weight="1" />
+      <edge id="384" source="Bucharest, Romania" target="Manchester, UK" weight="4" />
+      <edge id="385" source="Bucharest, Romania" target="Germany" weight="1" />
+      <edge id="386" source="Bucharest, Romania" target="Cologne, Germany" weight="1" />
+      <edge id="387" source="Bucharest, Romania" target="Copenhagen, Denmark" weight="1" />
+      <edge id="388" source="Bucharest, Romania" target="Bucharest, Romania" weight="15" />
+      <edge id="389" source="Cambridge, UK" target="Leeds, UK" weight="2" />
+      <edge id="390" source="Cambridge, UK" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="391" source="Cambridge, UK" target="Paris" weight="4" />
+      <edge id="392" source="Cambridge, UK" target="Copenhagen, Denmark" weight="1" />
+      <edge id="393" source="Cambridge, UK" target="Berlin, Germany" weight="6" />
+      <edge id="394" source="Cambridge, UK" target="Cambridge, UK" weight="45" />
+      <edge id="395" source="Cambridge, UK" target="Dublin, Ireland" weight="1" />
+      <edge id="396" source="Cambridge, UK" target="Oslo, Norway" weight="1" />
+      <edge id="397" source="Cambridge, UK" target="Manchester, UK" weight="3" />
+      <edge id="398" source="Cambridge, UK" target="Lausanne, Switzerland" weight="2" />
+      <edge id="399" source="Cambridge, UK" target="Moscow" weight="2" />
+      <edge id="400" source="Cambridge, UK" target="Brighton, UK" weight="4" />
+      <edge id="401" source="Cambridge, UK" target="Helsinki, Finland" weight="1" />
+      <edge id="402" source="Cambridge, UK" target="Germany" weight="6" />
+      <edge id="403" source="Cambridge, UK" target="London" weight="48" />
+      <edge id="404" source="Cambridge, UK" target="Brussels" weight="1" />
+      <edge id="405" source="Cambridge, UK" target="Glasgow, Scotland" weight="2" />
+      <edge id="406" source="Cambridge, UK" target="Netherlands" weight="1" />
+      <edge id="407" source="Cambridge, UK" target="Edinburgh, UK" weight="1" />
+      <edge id="408" source="Cambridge, UK" target="Poland" weight="1" />
+      <edge id="409" source="Cambridge, UK" target="Rome, Italy" weight="3" />
+      <edge id="410" source="Cambridge, UK" target="Barcelona" weight="2" />
+      <edge id="411" source="Cambridge, UK" target="Switzerland" weight="1" />
+      <edge id="412" source="Cambridge, UK" target="Porto, Portugal" weight="4" />
+      <edge id="413" source="Cambridge, UK" target="Vienna, Austria" weight="2" />
+      <edge id="414" source="Cambridge, UK" target="Zurich, Switzerland" weight="2" />
+      <edge id="415" source="Cambridge, UK" target="Karlsruhe, Germany" weight="1" />
+      <edge id="416" source="Cambridge, UK" target="UK" weight="14" />
+      <edge id="417" source="Cambridge, UK" target="Munich, Germany" weight="2" />
+      <edge id="418" source="Czech Republic" target="Ukraine" weight="1" />
+      <edge id="419" source="Czech Republic" target="Czech Republic" weight="37" />
+      <edge id="420" source="Czech Republic" target="Paris" weight="1" />
+      <edge id="421" source="Czech Republic" target="Berlin, Germany" weight="1" />
+      <edge id="422" source="Czech Republic" target="Barcelona" weight="3" />
+      <edge id="423" source="Czech Republic" target="Dublin, Ireland" weight="1" />
+      <edge id="424" source="Czech Republic" target="Prague, Czech Republic" weight="18" />
+      <edge id="425" source="Czech Republic" target="Switzerland" weight="1" />
+      <edge id="426" source="Czech Republic" target="London" weight="3" />
+      <edge id="427" source="Czech Republic" target="Germany" weight="1" />
+      <edge id="428" source="Czech Republic" target="Hamburg, Germany" weight="5" />
+      <edge id="429" source="Montpellier, France" target="Leeds, UK" weight="1" />
+      <edge id="430" source="Montpellier, France" target="Paris" weight="18" />
+      <edge id="431" source="Montpellier, France" target="Berlin, Germany" weight="2" />
+      <edge id="432" source="Montpellier, France" target="France" weight="6" />
+      <edge id="433" source="Montpellier, France" target="Italy" weight="1" />
+      <edge id="434" source="Montpellier, France" target="Oslo, Norway" weight="2" />
+      <edge id="435" source="Montpellier, France" target="Montpellier, France" weight="16" />
+      <edge id="436" source="Montpellier, France" target="Moscow" weight="1" />
+      <edge id="437" source="Montpellier, France" target="Helsinki, Finland" weight="1" />
+      <edge id="438" source="Montpellier, France" target="Germany" weight="2" />
+      <edge id="439" source="Montpellier, France" target="Brussels" weight="2" />
+      <edge id="440" source="Montpellier, France" target="Netherlands" weight="1" />
+      <edge id="441" source="Montpellier, France" target="Lyon, France" weight="6" />
+      <edge id="442" source="Montpellier, France" target="Minsk, Belarus" weight="1" />
+      <edge id="443" source="Montpellier, France" target="Rome, Italy" weight="1" />
+      <edge id="444" source="Montpellier, France" target="Switzerland" weight="1" />
+      <edge id="445" source="Montpellier, France" target="Malmö, Sweden" weight="1" />
+      <edge id="446" source="Montpellier, France" target="Leipzig, Germany" weight="1" />
+      <edge id="447" source="Montpellier, France" target="Saint-Laurent-du-Var, France" weight="4" />
+      <edge id="448" source="Montpellier, France" target="Vienna, Austria" weight="1" />
+      <edge id="449" source="Montpellier, France" target="Zurich, Switzerland" weight="1" />
+      <edge id="450" source="Montpellier, France" target="Nantes, France" weight="2" />
+      <edge id="451" source="Montpellier, France" target="London" weight="2" />
+      <edge id="452" source="Montpellier, France" target="Amsterdam" weight="1" />
+      <edge id="453" source="Saint-Petersburg, Russia" target="Ukraine" weight="2" />
+      <edge id="454" source="Saint-Petersburg, Russia" target="Italy" weight="1" />
+      <edge id="455" source="Saint-Petersburg, Russia" target="Minsk, Belarus" weight="1" />
+      <edge id="456" source="Saint-Petersburg, Russia" target="Berlin, Germany" weight="1" />
+      <edge id="457" source="Saint-Petersburg, Russia" target="Moscow" weight="23" />
+      <edge id="458" source="Saint-Petersburg, Russia" target="Helsinki, Finland" weight="1" />
+      <edge id="459" source="Saint-Petersburg, Russia" target="Zurich, Switzerland" weight="1" />
+      <edge id="460" source="Saint-Petersburg, Russia" target="Paris" weight="1" />
+      <edge id="461" source="Saint-Petersburg, Russia" target="Sweden" weight="1" />
+      <edge id="462" source="Saint-Petersburg, Russia" target="Warsaw, Poland" weight="1" />
+      <edge id="463" source="Saint-Petersburg, Russia" target="Germany" weight="2" />
+      <edge id="464" source="Saint-Petersburg, Russia" target="UK" weight="1" />
+      <edge id="465" source="Saint-Petersburg, Russia" target="Copenhagen, Denmark" weight="1" />
+      <edge id="466" source="Saint-Petersburg, Russia" target="Amsterdam" weight="1" />
+      <edge id="467" source="Saint-Petersburg, Russia" target="Oslo, Norway" weight="3" />
+      <edge id="468" source="Saint-Petersburg, Russia" target="Saint-Petersburg, Russia" weight="27" />
+      <edge id="469" source="Moscow" target="Leeds, UK" weight="1" />
+      <edge id="470" source="Moscow" target="Potsdam, Berlin, Germany" weight="2" />
+      <edge id="471" source="Moscow" target="Paris" weight="6" />
+      <edge id="472" source="Moscow" target="Copenhagen, Denmark" weight="1" />
+      <edge id="473" source="Moscow" target="Bucharest, Romania" weight="3" />
+      <edge id="474" source="Moscow" target="Berlin, Germany" weight="1" />
+      <edge id="475" source="Moscow" target="Cambridge, UK" weight="2" />
+      <edge id="476" source="Moscow" target="Dublin, Ireland" weight="1" />
+      <edge id="477" source="Moscow" target="Cologne, Germany" weight="2" />
+      <edge id="478" source="Moscow" target="Chemnitz, Germany" weight="2" />
+      <edge id="479" source="Moscow" target="Oslo, Norway" weight="1" />
+      <edge id="480" source="Moscow" target="Saint-Petersburg, Russia" weight="29" />
+      <edge id="481" source="Moscow" target="Bath, UK" weight="1" />
+      <edge id="482" source="Moscow" target="Birmingham, UK" weight="1" />
+      <edge id="483" source="Moscow" target="Italy" weight="1" />
+      <edge id="484" source="Moscow" target="Germany" weight="6" />
+      <edge id="485" source="Moscow" target="Stockholm, Sweden" weight="3" />
+      <edge id="486" source="Moscow" target="Ukraine" weight="12" />
+      <edge id="487" source="Moscow" target="Netherlands" weight="3" />
+      <edge id="488" source="Moscow" target="Minsk, Belarus" weight="6" />
+      <edge id="489" source="Moscow" target="Rome, Italy" weight="1" />
+      <edge id="490" source="Moscow" target="Barcelona" weight="2" />
+      <edge id="491" source="Moscow" target="Switzerland" weight="3" />
+      <edge id="492" source="Moscow" target="Vienna, Austria" weight="4" />
+      <edge id="493" source="Moscow" target="Austria" weight="1" />
+      <edge id="494" source="Moscow" target="London" weight="5" />
+      <edge id="495" source="Moscow" target="Prague, Czech Republic" weight="3" />
+      <edge id="496" source="Moscow" target="UK" weight="3" />
+      <edge id="497" source="Moscow" target="Munich, Germany" weight="2" />
+      <edge id="498" source="Moscow" target="Moscow" weight="189" />
+      <edge id="499" source="Moscow" target="Hamburg, Germany" weight="3" />
+      <edge id="500" source="Brighton, UK" target="Leeds, UK" weight="1" />
+      <edge id="501" source="Brighton, UK" target="Czech Republic" weight="1" />
+      <edge id="502" source="Brighton, UK" target="Paris" weight="3" />
+      <edge id="503" source="Brighton, UK" target="Copenhagen, Denmark" weight="2" />
+      <edge id="504" source="Brighton, UK" target="Berlin, Germany" weight="14" />
+      <edge id="505" source="Brighton, UK" target="Norway" weight="1" />
+      <edge id="506" source="Brighton, UK" target="Glasgow, Scotland" weight="1" />
+      <edge id="507" source="Brighton, UK" target="Trondheim, Norway" weight="3" />
+      <edge id="508" source="Brighton, UK" target="Italy" weight="6" />
+      <edge id="509" source="Brighton, UK" target="Oslo, Norway" weight="2" />
+      <edge id="510" source="Brighton, UK" target="Bucharest, Romania" weight="3" />
+      <edge id="511" source="Brighton, UK" target="Cambridge, UK" weight="7" />
+      <edge id="512" source="Brighton, UK" target="Montpellier, France" weight="1" />
+      <edge id="513" source="Brighton, UK" target="Manchester, UK" weight="3" />
+      <edge id="514" source="Brighton, UK" target="Moscow" weight="4" />
+      <edge id="515" source="Brighton, UK" target="Brighton, UK" weight="90" />
+      <edge id="516" source="Brighton, UK" target="Helsinki, Finland" weight="2" />
+      <edge id="517" source="Brighton, UK" target="Germany" weight="2" />
+      <edge id="518" source="Brighton, UK" target="Denmark" weight="2" />
+      <edge id="519" source="Brighton, UK" target="Belgium" weight="1" />
+      <edge id="520" source="Brighton, UK" target="Brussels" weight="1" />
+      <edge id="521" source="Brighton, UK" target="Stockholm, Sweden" weight="3" />
+      <edge id="522" source="Brighton, UK" target="Spain" weight="1" />
+      <edge id="523" source="Brighton, UK" target="Ukraine" weight="1" />
+      <edge id="524" source="Brighton, UK" target="Netherlands" weight="1" />
+      <edge id="525" source="Brighton, UK" target="Edinburgh, UK" weight="1" />
+      <edge id="526" source="Brighton, UK" target="Coimbra, Portugal" weight="1" />
+      <edge id="527" source="Brighton, UK" target="Lyon, France" weight="1" />
+      <edge id="528" source="Brighton, UK" target="Ghent, Belgium" weight="1" />
+      <edge id="529" source="Brighton, UK" target="Poland" weight="2" />
+      <edge id="530" source="Brighton, UK" target="Barcelona" weight="2" />
+      <edge id="531" source="Brighton, UK" target="Sweden" weight="4" />
+      <edge id="532" source="Brighton, UK" target="Bath, UK" weight="1" />
+      <edge id="533" source="Brighton, UK" target="Bremen, Germany" weight="1" />
+      <edge id="534" source="Brighton, UK" target="Switzerland" weight="3" />
+      <edge id="535" source="Brighton, UK" target="Malmö, Sweden" weight="3" />
+      <edge id="536" source="Brighton, UK" target="Gothenburg, Sweden" weight="2" />
+      <edge id="537" source="Brighton, UK" target="Porto, Portugal" weight="1" />
+      <edge id="538" source="Brighton, UK" target="Milan, Italy" weight="1" />
+      <edge id="539" source="Brighton, UK" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="540" source="Brighton, UK" target="Vienna, Austria" weight="3" />
+      <edge id="541" source="Brighton, UK" target="Zurich, Switzerland" weight="2" />
+      <edge id="542" source="Brighton, UK" target="Austria" weight="1" />
+      <edge id="543" source="Brighton, UK" target="Warsaw, Poland" weight="3" />
+      <edge id="544" source="Brighton, UK" target="London" weight="87" />
+      <edge id="545" source="Brighton, UK" target="Prague, Czech Republic" weight="1" />
+      <edge id="546" source="Brighton, UK" target="UK" weight="15" />
+      <edge id="547" source="Brighton, UK" target="Amsterdam" weight="1" />
+      <edge id="548" source="Brighton, UK" target="Hamburg, Germany" weight="3" />
+      <edge id="549" source="Milan, Italy" target="Athens, Greece" weight="1" />
+      <edge id="550" source="Milan, Italy" target="Lausanne, Switzerland" weight="1" />
+      <edge id="551" source="Milan, Italy" target="Italy" weight="6" />
+      <edge id="552" source="Milan, Italy" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="553" source="Milan, Italy" target="Coimbra, Portugal" weight="1" />
+      <edge id="554" source="Milan, Italy" target="Paris" weight="4" />
+      <edge id="555" source="Milan, Italy" target="Denmark" weight="1" />
+      <edge id="556" source="Milan, Italy" target="Berlin, Germany" weight="3" />
+      <edge id="557" source="Milan, Italy" target="Madrid, Spain" weight="4" />
+      <edge id="558" source="Milan, Italy" target="Milan, Italy" weight="9" />
+      <edge id="559" source="Milan, Italy" target="Helsinki, Finland" weight="1" />
+      <edge id="560" source="Milan, Italy" target="Barcelona" weight="1" />
+      <edge id="561" source="Milan, Italy" target="London" weight="1" />
+      <edge id="562" source="Milan, Italy" target="Prague, Czech Republic" weight="1" />
+      <edge id="563" source="Milan, Italy" target="Cologne, Germany" weight="1" />
+      <edge id="564" source="Milan, Italy" target="Germany" weight="3" />
+      <edge id="565" source="Milan, Italy" target="Amsterdam, The Netherlands" weight="1" />
+      <edge id="566" source="Milan, Italy" target="Bucharest, Romania" weight="1" />
+      <edge id="567" source="Nantes, France" target="Lausanne, Switzerland" weight="1" />
+      <edge id="568" source="Nantes, France" target="Lyon, France" weight="4" />
+      <edge id="569" source="Nantes, France" target="Minsk, Belarus" weight="1" />
+      <edge id="570" source="Nantes, France" target="Berlin, Germany" weight="1" />
+      <edge id="571" source="Nantes, France" target="France" weight="4" />
+      <edge id="572" source="Nantes, France" target="Saint-Laurent-du-Var, France" weight="3" />
+      <edge id="573" source="Nantes, France" target="Nantes, France" weight="30" />
+      <edge id="574" source="Nantes, France" target="Zurich, Switzerland" weight="1" />
+      <edge id="575" source="Nantes, France" target="Paris" weight="22" />
+      <edge id="576" source="Nantes, France" target="Austria" weight="1" />
+      <edge id="577" source="Nantes, France" target="Netherlands" weight="1" />
+      <edge id="578" source="Nantes, France" target="Montpellier, France" weight="1" />
+      <edge id="579" source="Nantes, France" target="Cologne, Germany" weight="1" />
+      <edge id="580" source="Nantes, France" target="Amsterdam" weight="1" />
+      <edge id="581" source="Nantes, France" target="Warsaw, Poland" weight="1" />
+      <edge id="582" source="Nantes, France" target="Norway" weight="1" />
+      <edge id="583" source="Austria" target="Italy" weight="1" />
+      <edge id="584" source="Austria" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="585" source="Austria" target="Paris" weight="5" />
+      <edge id="586" source="Austria" target="Berlin, Germany" weight="8" />
+      <edge id="587" source="Austria" target="Trondheim, Norway" weight="1" />
+      <edge id="588" source="Austria" target="Montpellier, France" weight="3" />
+      <edge id="589" source="Austria" target="Moscow" weight="4" />
+      <edge id="590" source="Austria" target="Brighton, UK" weight="2" />
+      <edge id="591" source="Austria" target="Germany" weight="7" />
+      <edge id="592" source="Austria" target="Denmark" weight="1" />
+      <edge id="593" source="Austria" target="Brussels" weight="2" />
+      <edge id="594" source="Austria" target="Stockholm, Sweden" weight="1" />
+      <edge id="595" source="Austria" target="Ukraine" weight="1" />
+      <edge id="596" source="Austria" target="Netherlands" weight="2" />
+      <edge id="597" source="Austria" target="Edinburgh, UK" weight="1" />
+      <edge id="598" source="Austria" target="Ghent, Belgium" weight="1" />
+      <edge id="599" source="Austria" target="Madrid, Spain" weight="2" />
+      <edge id="600" source="Austria" target="Barcelona" weight="2" />
+      <edge id="601" source="Austria" target="UK" weight="2" />
+      <edge id="602" source="Austria" target="Sweden" weight="1" />
+      <edge id="603" source="Austria" target="Switzerland" weight="2" />
+      <edge id="604" source="Austria" target="Leipzig, Germany" weight="1" />
+      <edge id="605" source="Austria" target="Sevilla" weight="1" />
+      <edge id="606" source="Austria" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="607" source="Austria" target="Vienna, Austria" weight="25" />
+      <edge id="608" source="Austria" target="Zurich, Switzerland" weight="2" />
+      <edge id="609" source="Austria" target="Austria" weight="12" />
+      <edge id="610" source="Austria" target="London" weight="5" />
+      <edge id="611" source="Austria" target="Prague, Czech Republic" weight="1" />
+      <edge id="612" source="Austria" target="Graz, Austria" weight="2" />
+      <edge id="613" source="Austria" target="Munich, Germany" weight="1" />
+      <edge id="614" source="Austria" target="Amsterdam" weight="1" />
+      <edge id="615" source="Austria" target="Hamburg, Germany" weight="1" />
+      <edge id="616" source="Bath, UK" target="Lausanne, Switzerland" weight="1" />
+      <edge id="617" source="Bath, UK" target="UK" weight="4" />
+      <edge id="618" source="Bath, UK" target="Berlin, Germany" weight="5" />
+      <edge id="619" source="Bath, UK" target="Bath, UK" weight="2" />
+      <edge id="620" source="Bath, UK" target="London" weight="6" />
+      <edge id="621" source="Bath, UK" target="Bremen, Germany" weight="1" />
+      <edge id="622" source="Bath, UK" target="Cologne, Germany" weight="1" />
+      <edge id="623" source="Bath, UK" target="Amsterdam" weight="1" />
+      <edge id="624" source="Bath, UK" target="Germany" weight="2" />
+      <edge id="625" source="Manchester, UK" target="Ukraine" weight="1" />
+      <edge id="626" source="Manchester, UK" target="Leeds, UK" weight="8" />
+      <edge id="627" source="Manchester, UK" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="628" source="Manchester, UK" target="Paris" weight="1" />
+      <edge id="629" source="Manchester, UK" target="Milan, Italy" weight="1" />
+      <edge id="630" source="Manchester, UK" target="Bucharest, Romania" weight="3" />
+      <edge id="631" source="Manchester, UK" target="Berlin, Germany" weight="1" />
+      <edge id="632" source="Manchester, UK" target="Cambridge, UK" weight="2" />
+      <edge id="633" source="Manchester, UK" target="Cologne, Germany" weight="1" />
+      <edge id="634" source="Manchester, UK" target="Oslo, Norway" weight="1" />
+      <edge id="635" source="Manchester, UK" target="Manchester, UK" weight="38" />
+      <edge id="636" source="Manchester, UK" target="Czech Republic" weight="1" />
+      <edge id="637" source="Manchester, UK" target="Birmingham, UK" weight="1" />
+      <edge id="638" source="Manchester, UK" target="Moscow" weight="1" />
+      <edge id="639" source="Manchester, UK" target="Brighton, UK" weight="1" />
+      <edge id="640" source="Manchester, UK" target="Helsinki, Finland" weight="1" />
+      <edge id="641" source="Manchester, UK" target="Germany" weight="3" />
+      <edge id="642" source="Manchester, UK" target="Karlsruhe, Germany" weight="1" />
+      <edge id="643" source="Manchester, UK" target="Brussels" weight="1" />
+      <edge id="644" source="Manchester, UK" target="Athens, Greece" weight="2" />
+      <edge id="645" source="Manchester, UK" target="Netherlands" weight="3" />
+      <edge id="646" source="Manchester, UK" target="Denmark" weight="2" />
+      <edge id="647" source="Manchester, UK" target="Switzerland" weight="1" />
+      <edge id="648" source="Manchester, UK" target="Porto, Portugal" weight="1" />
+      <edge id="649" source="Manchester, UK" target="London" weight="17" />
+      <edge id="650" source="Manchester, UK" target="Prague, Czech Republic" weight="2" />
+      <edge id="651" source="Manchester, UK" target="UK" weight="5" />
+      <edge id="652" source="Manchester, UK" target="Munich, Germany" weight="1" />
+      <edge id="653" source="Manchester, UK" target="Amsterdam" weight="2" />
+      <edge id="654" source="Germany" target="Athens, Greece" weight="3" />
+      <edge id="655" source="Germany" target="Italy" weight="1" />
+      <edge id="656" source="Germany" target="Potsdam, Berlin, Germany" weight="4" />
+      <edge id="657" source="Germany" target="Paris" weight="6" />
+      <edge id="658" source="Germany" target="Copenhagen, Denmark" weight="2" />
+      <edge id="659" source="Germany" target="Berlin, Germany" weight="53" />
+      <edge id="660" source="Germany" target="France" weight="5" />
+      <edge id="661" source="Germany" target="Netherlands" weight="6" />
+      <edge id="662" source="Germany" target="Dublin, Ireland" weight="4" />
+      <edge id="663" source="Germany" target="Cologne, Germany" weight="25" />
+      <edge id="664" source="Germany" target="Chemnitz, Germany" weight="3" />
+      <edge id="665" source="Germany" target="Oslo, Norway" weight="5" />
+      <edge id="666" source="Germany" target="Bucharest, Romania" weight="2" />
+      <edge id="667" source="Germany" target="Czech Republic" weight="1" />
+      <edge id="668" source="Germany" target="Bath, UK" weight="4" />
+      <edge id="669" source="Germany" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="670" source="Germany" target="Moscow" weight="6" />
+      <edge id="671" source="Germany" target="Brighton, UK" weight="1" />
+      <edge id="672" source="Germany" target="Austria" weight="6" />
+      <edge id="673" source="Germany" target="Germany" weight="82" />
+      <edge id="674" source="Germany" target="Belgium" weight="4" />
+      <edge id="675" source="Germany" target="Karlsruhe, Germany" weight="9" />
+      <edge id="676" source="Germany" target="Amsterdam, The Netherlands" weight="1" />
+      <edge id="677" source="Germany" target="Stockholm, Sweden" weight="4" />
+      <edge id="678" source="Germany" target="Spain" weight="1" />
+      <edge id="679" source="Germany" target="Ukraine" weight="3" />
+      <edge id="680" source="Germany" target="Rome, Italy" weight="1" />
+      <edge id="681" source="Germany" target="Edinburgh, UK" weight="1" />
+      <edge id="682" source="Germany" target="Lyon, France" weight="2" />
+      <edge id="683" source="Germany" target="Denmark" weight="3" />
+      <edge id="684" source="Germany" target="Poland" weight="4" />
+      <edge id="685" source="Germany" target="Madrid, Spain" weight="3" />
+      <edge id="686" source="Germany" target="Barcelona" weight="3" />
+      <edge id="687" source="Germany" target="UK" weight="8" />
+      <edge id="688" source="Germany" target="Sweden" weight="1" />
+      <edge id="689" source="Germany" target="Lausanne, Switzerland" weight="1" />
+      <edge id="690" source="Germany" target="Bremen, Germany" weight="6" />
+      <edge id="691" source="Germany" target="Switzerland" weight="2" />
+      <edge id="692" source="Germany" target="Malmö, Sweden" weight="1" />
+      <edge id="693" source="Germany" target="Leipzig, Germany" weight="4" />
+      <edge id="694" source="Germany" target="Gothenburg, Sweden" weight="2" />
+      <edge id="695" source="Germany" target="Glasgow, Scotland" weight="1" />
+      <edge id="696" source="Germany" target="Porto, Portugal" weight="2" />
+      <edge id="697" source="Germany" target="Saint-Laurent-du-Var, France" weight="3" />
+      <edge id="698" source="Germany" target="Vienna, Austria" weight="6" />
+      <edge id="699" source="Germany" target="Zurich, Switzerland" weight="5" />
+      <edge id="700" source="Germany" target="Nantes, France" weight="2" />
+      <edge id="701" source="Germany" target="London" weight="12" />
+      <edge id="702" source="Germany" target="Prague, Czech Republic" weight="1" />
+      <edge id="703" source="Germany" target="Graz, Austria" weight="4" />
+      <edge id="704" source="Germany" target="Munich, Germany" weight="16" />
+      <edge id="705" source="Germany" target="Amsterdam" weight="2" />
+      <edge id="706" source="Germany" target="Hamburg, Germany" weight="30" />
+      <edge id="707" source="Denmark" target="Potsdam, Berlin, Germany" weight="2" />
+      <edge id="708" source="Denmark" target="Paris" weight="1" />
+      <edge id="709" source="Denmark" target="Copenhagen, Denmark" weight="19" />
+      <edge id="710" source="Denmark" target="Berlin, Germany" weight="1" />
+      <edge id="711" source="Denmark" target="France" weight="2" />
+      <edge id="712" source="Denmark" target="Dublin, Ireland" weight="2" />
+      <edge id="713" source="Denmark" target="Cologne, Germany" weight="1" />
+      <edge id="714" source="Denmark" target="Manchester, UK" weight="2" />
+      <edge id="715" source="Denmark" target="Lausanne, Switzerland" weight="1" />
+      <edge id="716" source="Denmark" target="Moscow" weight="1" />
+      <edge id="717" source="Denmark" target="Helsinki, Finland" weight="1" />
+      <edge id="718" source="Denmark" target="Germany" weight="1" />
+      <edge id="719" source="Denmark" target="Brussels" weight="1" />
+      <edge id="720" source="Denmark" target="Stockholm, Sweden" weight="1" />
+      <edge id="721" source="Denmark" target="Athens, Greece" weight="2" />
+      <edge id="722" source="Denmark" target="Edinburgh, UK" weight="1" />
+      <edge id="723" source="Denmark" target="Denmark" weight="29" />
+      <edge id="724" source="Denmark" target="Sweden" weight="4" />
+      <edge id="725" source="Denmark" target="Amsterdam, The Netherlands" weight="1" />
+      <edge id="726" source="Denmark" target="London" weight="2" />
+      <edge id="727" source="Denmark" target="Prague, Czech Republic" weight="1" />
+      <edge id="728" source="Denmark" target="UK" weight="1" />
+      <edge id="729" source="Denmark" target="Munich, Germany" weight="1" />
+      <edge id="730" source="Denmark" target="Hamburg, Germany" weight="1" />
+      <edge id="731" source="Belgium" target="Italy" weight="2" />
+      <edge id="732" source="Belgium" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="733" source="Belgium" target="Paris" weight="1" />
+      <edge id="734" source="Belgium" target="Copenhagen, Denmark" weight="1" />
+      <edge id="735" source="Belgium" target="Berlin, Germany" weight="1" />
+      <edge id="736" source="Belgium" target="France" weight="2" />
+      <edge id="737" source="Belgium" target="Netherlands" weight="1" />
+      <edge id="738" source="Belgium" target="Dublin, Ireland" weight="1" />
+      <edge id="739" source="Belgium" target="Manchester, UK" weight="3" />
+      <edge id="740" source="Belgium" target="Norway" weight="1" />
+      <edge id="741" source="Belgium" target="Germany" weight="4" />
+      <edge id="742" source="Belgium" target="Ghent, Belgium" weight="20" />
+      <edge id="743" source="Belgium" target="Belgium" weight="37" />
+      <edge id="744" source="Belgium" target="Brussels" weight="11" />
+      <edge id="745" source="Belgium" target="Stockholm, Sweden" weight="2" />
+      <edge id="746" source="Belgium" target="Athens, Greece" weight="1" />
+      <edge id="747" source="Belgium" target="Cambridge, UK" weight="1" />
+      <edge id="748" source="Belgium" target="Denmark" weight="1" />
+      <edge id="749" source="Belgium" target="Madrid, Spain" weight="1" />
+      <edge id="750" source="Belgium" target="Barcelona" weight="1" />
+      <edge id="751" source="Belgium" target="Sweden" weight="1" />
+      <edge id="752" source="Belgium" target="Malmö, Sweden" weight="1" />
+      <edge id="753" source="Belgium" target="Vienna, Austria" weight="1" />
+      <edge id="754" source="Belgium" target="London" weight="8" />
+      <edge id="755" source="Belgium" target="Prague, Czech Republic" weight="1" />
+      <edge id="756" source="Belgium" target="UK" weight="5" />
+      <edge id="757" source="Belgium" target="Hamburg, Germany" weight="1" />
+      <edge id="758" source="Karlsruhe, Germany" target="Netherlands" weight="2" />
+      <edge id="759" source="Karlsruhe, Germany" target="Chemnitz, Germany" weight="1" />
+      <edge id="760" source="Karlsruhe, Germany" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="761" source="Karlsruhe, Germany" target="Birmingham, UK" weight="1" />
+      <edge id="762" source="Karlsruhe, Germany" target="Berlin, Germany" weight="4" />
+      <edge id="763" source="Karlsruhe, Germany" target="Germany" weight="9" />
+      <edge id="764" source="Karlsruhe, Germany" target="UK" weight="1" />
+      <edge id="765" source="Karlsruhe, Germany" target="London" weight="1" />
+      <edge id="766" source="Karlsruhe, Germany" target="Leipzig, Germany" weight="1" />
+      <edge id="767" source="Karlsruhe, Germany" target="Manchester, UK" weight="1" />
+      <edge id="768" source="Karlsruhe, Germany" target="Karlsruhe, Germany" weight="7" />
+      <edge id="769" source="Karlsruhe, Germany" target="Hamburg, Germany" weight="2" />
+      <edge id="770" source="Brussels" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="771" source="Brussels" target="Paris" weight="4" />
+      <edge id="772" source="Brussels" target="Berlin, Germany" weight="4" />
+      <edge id="773" source="Brussels" target="France" weight="1" />
+      <edge id="774" source="Brussels" target="Cologne, Germany" weight="1" />
+      <edge id="775" source="Brussels" target="Oslo, Norway" weight="1" />
+      <edge id="776" source="Brussels" target="Manchester, UK" weight="1" />
+      <edge id="777" source="Brussels" target="Birmingham, UK" weight="1" />
+      <edge id="778" source="Brussels" target="Moscow" weight="1" />
+      <edge id="779" source="Brussels" target="Milan, Italy" weight="1" />
+      <edge id="780" source="Brussels" target="Austria" weight="1" />
+      <edge id="781" source="Brussels" target="Germany" weight="4" />
+      <edge id="782" source="Brussels" target="Belgium" weight="14" />
+      <edge id="783" source="Brussels" target="Brussels" weight="7" />
+      <edge id="784" source="Brussels" target="Ukraine" weight="1" />
+      <edge id="785" source="Brussels" target="Cambridge, UK" weight="1" />
+      <edge id="786" source="Brussels" target="Lyon, France" weight="1" />
+      <edge id="787" source="Brussels" target="Denmark" weight="1" />
+      <edge id="788" source="Brussels" target="Barcelona" weight="1" />
+      <edge id="789" source="Brussels" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="790" source="Brussels" target="Nantes, France" weight="1" />
+      <edge id="791" source="Brussels" target="London" weight="1" />
+      <edge id="792" source="Brussels" target="Prague, Czech Republic" weight="1" />
+      <edge id="793" source="Brussels" target="UK" weight="3" />
+      <edge id="794" source="Brussels" target="Munich, Germany" weight="1" />
+      <edge id="795" source="Brussels" target="Amsterdam" weight="1" />
+      <edge id="796" source="Brussels" target="Hamburg, Germany" weight="1" />
+      <edge id="797" source="Stockholm, Sweden" target="Athens, Greece" weight="1" />
+      <edge id="798" source="Stockholm, Sweden" target="Leeds, UK" weight="1" />
+      <edge id="799" source="Stockholm, Sweden" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="800" source="Stockholm, Sweden" target="Lisbon, Portugal" weight="2" />
+      <edge id="801" source="Stockholm, Sweden" target="Paris" weight="5" />
+      <edge id="802" source="Stockholm, Sweden" target="Copenhagen, Denmark" weight="4" />
+      <edge id="803" source="Stockholm, Sweden" target="Berlin, Germany" weight="16" />
+      <edge id="804" source="Stockholm, Sweden" target="Glasgow, Scotland" weight="1" />
+      <edge id="805" source="Stockholm, Sweden" target="Dublin, Ireland" weight="1" />
+      <edge id="806" source="Stockholm, Sweden" target="Cologne, Germany" weight="2" />
+      <edge id="807" source="Stockholm, Sweden" target="Italy" weight="2" />
+      <edge id="808" source="Stockholm, Sweden" target="Oslo, Norway" weight="2" />
+      <edge id="809" source="Stockholm, Sweden" target="Manchester, UK" weight="3" />
+      <edge id="810" source="Stockholm, Sweden" target="Lausanne, Switzerland" weight="1" />
+      <edge id="811" source="Stockholm, Sweden" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="812" source="Stockholm, Sweden" target="Moscow" weight="7" />
+      <edge id="813" source="Stockholm, Sweden" target="Brighton, UK" weight="1" />
+      <edge id="814" source="Stockholm, Sweden" target="Milan, Italy" weight="1" />
+      <edge id="815" source="Stockholm, Sweden" target="Rome, Italy" weight="1" />
+      <edge id="816" source="Stockholm, Sweden" target="Germany" weight="8" />
+      <edge id="817" source="Stockholm, Sweden" target="Belgium" weight="2" />
+      <edge id="818" source="Stockholm, Sweden" target="Amsterdam, The Netherlands" weight="1" />
+      <edge id="819" source="Stockholm, Sweden" target="Stockholm, Sweden" weight="194" />
+      <edge id="820" source="Stockholm, Sweden" target="Ukraine" weight="1" />
+      <edge id="821" source="Stockholm, Sweden" target="Netherlands" weight="2" />
+      <edge id="822" source="Stockholm, Sweden" target="Edinburgh, UK" weight="1" />
+      <edge id="823" source="Stockholm, Sweden" target="Minsk, Belarus" weight="1" />
+      <edge id="824" source="Stockholm, Sweden" target="Denmark" weight="1" />
+      <edge id="825" source="Stockholm, Sweden" target="Madrid, Spain" weight="5" />
+      <edge id="826" source="Stockholm, Sweden" target="Barcelona" weight="1" />
+      <edge id="827" source="Stockholm, Sweden" target="Sweden" weight="48" />
+      <edge id="828" source="Stockholm, Sweden" target="Switzerland" weight="3" />
+      <edge id="829" source="Stockholm, Sweden" target="Malmö, Sweden" weight="11" />
+      <edge id="830" source="Stockholm, Sweden" target="Gothenburg, Sweden" weight="11" />
+      <edge id="831" source="Stockholm, Sweden" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="832" source="Stockholm, Sweden" target="Austria" weight="1" />
+      <edge id="833" source="Stockholm, Sweden" target="London" weight="18" />
+      <edge id="834" source="Stockholm, Sweden" target="Prague, Czech Republic" weight="1" />
+      <edge id="835" source="Stockholm, Sweden" target="UK" weight="3" />
+      <edge id="836" source="Stockholm, Sweden" target="Amsterdam" weight="4" />
+      <edge id="837" source="Stockholm, Sweden" target="Hamburg, Germany" weight="1" />
+      <edge id="838" source="Spain" target="Ukraine" weight="1" />
+      <edge id="839" source="Spain" target="Netherlands" weight="1" />
+      <edge id="840" source="Spain" target="Czech Republic" weight="1" />
+      <edge id="841" source="Spain" target="Madrid, Spain" weight="30" />
+      <edge id="842" source="Spain" target="Sevilla" weight="5" />
+      <edge id="843" source="Spain" target="Berlin, Germany" weight="2" />
+      <edge id="844" source="Spain" target="Vienna, Austria" weight="1" />
+      <edge id="845" source="Spain" target="Barcelona" weight="10" />
+      <edge id="846" source="Spain" target="Switzerland" weight="1" />
+      <edge id="847" source="Spain" target="Sweden" weight="1" />
+      <edge id="848" source="Spain" target="Warsaw, Poland" weight="1" />
+      <edge id="849" source="Spain" target="Germany" weight="2" />
+      <edge id="850" source="Spain" target="Munich, Germany" weight="1" />
+      <edge id="851" source="Spain" target="Amsterdam" weight="1" />
+      <edge id="852" source="Spain" target="Malmö, Sweden" weight="1" />
+      <edge id="853" source="Spain" target="Leipzig, Germany" weight="1" />
+      <edge id="854" source="Spain" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="855" source="Spain" target="Moscow" weight="1" />
+      <edge id="856" source="Spain" target="Spain" weight="7" />
+      <edge id="857" source="Athens, Greece" target="Athens, Greece" weight="19" />
+      <edge id="858" source="Athens, Greece" target="Paris" weight="3" />
+      <edge id="859" source="Athens, Greece" target="Denmark" weight="1" />
+      <edge id="860" source="Athens, Greece" target="Moscow" weight="3" />
+      <edge id="861" source="Athens, Greece" target="Germany" weight="2" />
+      <edge id="862" source="Athens, Greece" target="London" weight="4" />
+      <edge id="863" source="Netherlands" target="Leeds, UK" weight="3" />
+      <edge id="864" source="Netherlands" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="865" source="Netherlands" target="Lisbon, Portugal" weight="1" />
+      <edge id="866" source="Netherlands" target="Paris" weight="3" />
+      <edge id="867" source="Netherlands" target="Milan, Italy" weight="1" />
+      <edge id="868" source="Netherlands" target="Berlin, Germany" weight="5" />
+      <edge id="869" source="Netherlands" target="France" weight="4" />
+      <edge id="870" source="Netherlands" target="Dublin, Ireland" weight="1" />
+      <edge id="871" source="Netherlands" target="Cologne, Germany" weight="5" />
+      <edge id="872" source="Netherlands" target="Italy" weight="4" />
+      <edge id="873" source="Netherlands" target="Oslo, Norway" weight="5" />
+      <edge id="874" source="Netherlands" target="Bucharest, Romania" weight="2" />
+      <edge id="875" source="Netherlands" target="Czech Republic" weight="1" />
+      <edge id="876" source="Netherlands" target="Montpellier, France" weight="1" />
+      <edge id="877" source="Netherlands" target="Manchester, UK" weight="1" />
+      <edge id="878" source="Netherlands" target="Moscow" weight="7" />
+      <edge id="879" source="Netherlands" target="Helsinki, Finland" weight="1" />
+      <edge id="880" source="Netherlands" target="Germany" weight="6" />
+      <edge id="881" source="Netherlands" target="Belgium" weight="1" />
+      <edge id="882" source="Netherlands" target="Karlsruhe, Germany" weight="1" />
+      <edge id="883" source="Netherlands" target="Amsterdam, The Netherlands" weight="20" />
+      <edge id="884" source="Netherlands" target="Stockholm, Sweden" weight="1" />
+      <edge id="885" source="Netherlands" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="886" source="Netherlands" target="Netherlands" weight="42" />
+      <edge id="887" source="Netherlands" target="UK" weight="4" />
+      <edge id="888" source="Netherlands" target="Lyon, France" weight="2" />
+      <edge id="889" source="Netherlands" target="Minsk, Belarus" weight="1" />
+      <edge id="890" source="Netherlands" target="Denmark" weight="2" />
+      <edge id="891" source="Netherlands" target="Barcelona" weight="2" />
+      <edge id="892" source="Netherlands" target="Sweden" weight="4" />
+      <edge id="893" source="Netherlands" target="Lausanne, Switzerland" weight="2" />
+      <edge id="894" source="Netherlands" target="Leipzig, Germany" weight="1" />
+      <edge id="895" source="Netherlands" target="Chemnitz, Germany" weight="1" />
+      <edge id="896" source="Netherlands" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="897" source="Netherlands" target="Vienna, Austria" weight="4" />
+      <edge id="898" source="Netherlands" target="Zurich, Switzerland" weight="1" />
+      <edge id="899" source="Netherlands" target="Austria" weight="1" />
+      <edge id="900" source="Netherlands" target="London" weight="4" />
+      <edge id="901" source="Netherlands" target="Prague, Czech Republic" weight="1" />
+      <edge id="902" source="Netherlands" target="Graz, Austria" weight="1" />
+      <edge id="903" source="Netherlands" target="Munich, Germany" weight="2" />
+      <edge id="904" source="Netherlands" target="Amsterdam" weight="17" />
+      <edge id="905" source="Netherlands" target="Hamburg, Germany" weight="3" />
+      <edge id="906" source="Edinburgh, UK" target="Glasgow, Scotland" weight="6" />
+      <edge id="907" source="Edinburgh, UK" target="Italy" weight="1" />
+      <edge id="908" source="Edinburgh, UK" target="Cologne, Germany" weight="1" />
+      <edge id="909" source="Edinburgh, UK" target="Edinburgh, UK" weight="30" />
+      <edge id="910" source="Edinburgh, UK" target="Lyon, France" weight="1" />
+      <edge id="911" source="Edinburgh, UK" target="Paris" weight="2" />
+      <edge id="912" source="Edinburgh, UK" target="Denmark" weight="3" />
+      <edge id="913" source="Edinburgh, UK" target="Moscow" weight="2" />
+      <edge id="914" source="Edinburgh, UK" target="Madrid, Spain" weight="1" />
+      <edge id="915" source="Edinburgh, UK" target="Berlin, Germany" weight="5" />
+      <edge id="916" source="Edinburgh, UK" target="Barcelona" weight="3" />
+      <edge id="917" source="Edinburgh, UK" target="Belgium" weight="1" />
+      <edge id="918" source="Edinburgh, UK" target="Oslo, Norway" weight="1" />
+      <edge id="919" source="Edinburgh, UK" target="London" weight="8" />
+      <edge id="920" source="Edinburgh, UK" target="UK" weight="1" />
+      <edge id="921" source="Edinburgh, UK" target="Munich, Germany" weight="1" />
+      <edge id="922" source="Edinburgh, UK" target="Germany" weight="1" />
+      <edge id="923" source="Edinburgh, UK" target="Leipzig, Germany" weight="1" />
+      <edge id="924" source="Edinburgh, UK" target="Manchester, UK" weight="1" />
+      <edge id="925" source="Edinburgh, UK" target="Stockholm, Sweden" weight="1" />
+      <edge id="926" source="Edinburgh, UK" target="Gothenburg, Sweden" weight="1" />
+      <edge id="927" source="Coimbra, Portugal" target="Porto, Portugal" weight="2" />
+      <edge id="928" source="Coimbra, Portugal" target="Coimbra, Portugal" weight="43" />
+      <edge id="929" source="Coimbra, Portugal" target="Lisbon, Portugal" weight="9" />
+      <edge id="930" source="Coimbra, Portugal" target="Poland" weight="1" />
+      <edge id="931" source="Coimbra, Portugal" target="Zurich, Switzerland" weight="1" />
+      <edge id="932" source="Coimbra, Portugal" target="London" weight="1" />
+      <edge id="933" source="Lyon, France" target="Athens, Greece" weight="1" />
+      <edge id="934" source="Lyon, France" target="Porto, Portugal" weight="1" />
+      <edge id="935" source="Lyon, France" target="Montpellier, France" weight="3" />
+      <edge id="936" source="Lyon, France" target="Chemnitz, Germany" weight="1" />
+      <edge id="937" source="Lyon, France" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="938" source="Lyon, France" target="Lyon, France" weight="34" />
+      <edge id="939" source="Lyon, France" target="Paris" weight="14" />
+      <edge id="940" source="Lyon, France" target="Denmark" weight="1" />
+      <edge id="941" source="Lyon, France" target="Saint-Laurent-du-Var, France" weight="6" />
+      <edge id="942" source="Lyon, France" target="France" weight="4" />
+      <edge id="943" source="Lyon, France" target="Nantes, France" weight="4" />
+      <edge id="944" source="Lyon, France" target="Germany" weight="2" />
+      <edge id="945" source="Lyon, France" target="Cologne, Germany" weight="1" />
+      <edge id="946" source="Lyon, France" target="Amsterdam" weight="1" />
+      <edge id="947" source="Lyon, France" target="Malmö, Sweden" weight="1" />
+      <edge id="948" source="Lyon, France" target="Brussels" weight="1" />
+      <edge id="949" source="Minsk, Belarus" target="Netherlands" weight="1" />
+      <edge id="950" source="Minsk, Belarus" target="UK" weight="1" />
+      <edge id="951" source="Minsk, Belarus" target="Lyon, France" weight="2" />
+      <edge id="952" source="Minsk, Belarus" target="Minsk, Belarus" weight="26" />
+      <edge id="953" source="Minsk, Belarus" target="Copenhagen, Denmark" weight="1" />
+      <edge id="954" source="Minsk, Belarus" target="Moscow" weight="10" />
+      <edge id="955" source="Minsk, Belarus" target="Lisbon, Portugal" weight="1" />
+      <edge id="956" source="Minsk, Belarus" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="957" source="Minsk, Belarus" target="Barcelona" weight="1" />
+      <edge id="958" source="Minsk, Belarus" target="Zurich, Switzerland" weight="1" />
+      <edge id="959" source="Minsk, Belarus" target="Paris" weight="1" />
+      <edge id="960" source="Minsk, Belarus" target="Nantes, France" weight="1" />
+      <edge id="961" source="Minsk, Belarus" target="Montpellier, France" weight="1" />
+      <edge id="962" source="Minsk, Belarus" target="London" weight="1" />
+      <edge id="963" source="Minsk, Belarus" target="Cologne, Germany" weight="1" />
+      <edge id="964" source="Minsk, Belarus" target="Amsterdam" weight="1" />
+      <edge id="965" source="Minsk, Belarus" target="Malmö, Sweden" weight="1" />
+      <edge id="966" source="Minsk, Belarus" target="Oslo, Norway" weight="1" />
+      <edge id="967" source="Minsk, Belarus" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="968" source="Minsk, Belarus" target="Stockholm, Sweden" weight="2" />
+      <edge id="969" source="Ghent, Belgium" target="Edinburgh, UK" weight="1" />
+      <edge id="970" source="Ghent, Belgium" target="Ghent, Belgium" weight="19" />
+      <edge id="971" source="Ghent, Belgium" target="Moscow" weight="1" />
+      <edge id="972" source="Ghent, Belgium" target="Berlin, Germany" weight="1" />
+      <edge id="973" source="Ghent, Belgium" target="Prague, Czech Republic" weight="1" />
+      <edge id="974" source="Ghent, Belgium" target="Copenhagen, Denmark" weight="2" />
+      <edge id="975" source="Ghent, Belgium" target="Belgium" weight="23" />
+      <edge id="976" source="Ghent, Belgium" target="Amsterdam" weight="1" />
+      <edge id="977" source="Ghent, Belgium" target="Brussels" weight="1" />
+      <edge id="978" source="Ghent, Belgium" target="Bremen, Germany" weight="1" />
+      <edge id="979" source="Poland" target="Italy" weight="1" />
+      <edge id="980" source="Poland" target="Poland" weight="24" />
+      <edge id="981" source="Poland" target="Warsaw, Poland" weight="6" />
+      <edge id="982" source="Poland" target="London" weight="2" />
+      <edge id="983" source="Poland" target="Belgium" weight="1" />
+      <edge id="984" source="Poland" target="Germany" weight="1" />
+      <edge id="985" source="Poland" target="Birmingham, UK" weight="6" />
+      <edge id="986" source="Poland" target="Moscow" weight="1" />
+      <edge id="987" source="Poland" target="Gothenburg, Sweden" weight="1" />
+      <edge id="988" source="Rome, Italy" target="Cambridge, UK" weight="1" />
+      <edge id="989" source="Rome, Italy" target="Italy" weight="14" />
+      <edge id="990" source="Rome, Italy" target="Czech Republic" weight="1" />
+      <edge id="991" source="Rome, Italy" target="Paris" weight="1" />
+      <edge id="992" source="Rome, Italy" target="Denmark" weight="1" />
+      <edge id="993" source="Rome, Italy" target="Madrid, Spain" weight="1" />
+      <edge id="994" source="Rome, Italy" target="Rome, Italy" weight="5" />
+      <edge id="995" source="Rome, Italy" target="Milan, Italy" weight="1" />
+      <edge id="996" source="Rome, Italy" target="Barcelona" weight="2" />
+      <edge id="997" source="Rome, Italy" target="France" weight="1" />
+      <edge id="998" source="Rome, Italy" target="UK" weight="1" />
+      <edge id="999" source="Rome, Italy" target="Sweden" weight="1" />
+      <edge id="1000" source="Rome, Italy" target="Warsaw, Poland" weight="1" />
+      <edge id="1001" source="Rome, Italy" target="London" weight="9" />
+      <edge id="1002" source="Rome, Italy" target="Berlin, Germany" weight="3" />
+      <edge id="1003" source="Rome, Italy" target="Graz, Austria" weight="1" />
+      <edge id="1004" source="Rome, Italy" target="Germany" weight="1" />
+      <edge id="1005" source="Rome, Italy" target="Dublin, Ireland" weight="1" />
+      <edge id="1006" source="Rome, Italy" target="Norway" weight="1" />
+      <edge id="1007" source="Rome, Italy" target="Moscow" weight="1" />
+      <edge id="1008" source="Rome, Italy" target="Spain" weight="1" />
+      <edge id="1009" source="Barcelona" target="Athens, Greece" weight="1" />
+      <edge id="1010" source="Barcelona" target="Leeds, UK" weight="2" />
+      <edge id="1011" source="Barcelona" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="1012" source="Barcelona" target="Paris" weight="4" />
+      <edge id="1013" source="Barcelona" target="Berlin, Germany" weight="10" />
+      <edge id="1014" source="Barcelona" target="France" weight="1" />
+      <edge id="1015" source="Barcelona" target="Cambridge, UK" weight="1" />
+      <edge id="1016" source="Barcelona" target="Dublin, Ireland" weight="1" />
+      <edge id="1017" source="Barcelona" target="Cologne, Germany" weight="6" />
+      <edge id="1018" source="Barcelona" target="Italy" weight="1" />
+      <edge id="1019" source="Barcelona" target="Birmingham, UK" weight="1" />
+      <edge id="1020" source="Barcelona" target="Manchester, UK" weight="3" />
+      <edge id="1021" source="Barcelona" target="Czech Republic" weight="4" />
+      <edge id="1022" source="Barcelona" target="Montpellier, France" weight="1" />
+      <edge id="1023" source="Barcelona" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="1024" source="Barcelona" target="Moscow" weight="8" />
+      <edge id="1025" source="Barcelona" target="Brighton, UK" weight="1" />
+      <edge id="1026" source="Barcelona" target="Germany" weight="11" />
+      <edge id="1027" source="Barcelona" target="Belgium" weight="2" />
+      <edge id="1028" source="Barcelona" target="Karlsruhe, Germany" weight="1" />
+      <edge id="1029" source="Barcelona" target="Brussels" weight="2" />
+      <edge id="1030" source="Barcelona" target="Stockholm, Sweden" weight="1" />
+      <edge id="1031" source="Barcelona" target="Spain" weight="9" />
+      <edge id="1032" source="Barcelona" target="Ukraine" weight="2" />
+      <edge id="1033" source="Barcelona" target="Netherlands" weight="3" />
+      <edge id="1034" source="Barcelona" target="Edinburgh, UK" weight="1" />
+      <edge id="1035" source="Barcelona" target="Minsk, Belarus" weight="2" />
+      <edge id="1036" source="Barcelona" target="Denmark" weight="1" />
+      <edge id="1037" source="Barcelona" target="Madrid, Spain" weight="27" />
+      <edge id="1038" source="Barcelona" target="Barcelona" weight="76" />
+      <edge id="1039" source="Barcelona" target="Lausanne, Switzerland" weight="1" />
+      <edge id="1040" source="Barcelona" target="Bremen, Germany" weight="1" />
+      <edge id="1041" source="Barcelona" target="Chemnitz, Germany" weight="1" />
+      <edge id="1042" source="Barcelona" target="Sevilla" weight="6" />
+      <edge id="1043" source="Barcelona" target="Saint-Laurent-du-Var, France" weight="2" />
+      <edge id="1044" source="Barcelona" target="Vienna, Austria" weight="1" />
+      <edge id="1045" source="Barcelona" target="London" weight="15" />
+      <edge id="1046" source="Barcelona" target="Prague, Czech Republic" weight="1" />
+      <edge id="1047" source="Barcelona" target="UK" weight="7" />
+      <edge id="1048" source="Barcelona" target="Munich, Germany" weight="4" />
+      <edge id="1049" source="Barcelona" target="Amsterdam" weight="5" />
+      <edge id="1050" source="Barcelona" target="Hamburg, Germany" weight="20" />
+      <edge id="1051" source="Sweden" target="Italy" weight="5" />
+      <edge id="1052" source="Sweden" target="Lisbon, Portugal" weight="1" />
+      <edge id="1053" source="Sweden" target="Paris" weight="6" />
+      <edge id="1054" source="Sweden" target="Helsinki, Finland" weight="2" />
+      <edge id="1055" source="Sweden" target="Berlin, Germany" weight="6" />
+      <edge id="1056" source="Sweden" target="France" weight="4" />
+      <edge id="1057" source="Sweden" target="Dublin, Ireland" weight="2" />
+      <edge id="1058" source="Sweden" target="Oslo, Norway" weight="1" />
+      <edge id="1059" source="Sweden" target="Manchester, UK" weight="2" />
+      <edge id="1060" source="Sweden" target="Norway" weight="1" />
+      <edge id="1061" source="Sweden" target="Moscow" weight="2" />
+      <edge id="1062" source="Sweden" target="Milan, Italy" weight="1" />
+      <edge id="1063" source="Sweden" target="Germany" weight="6" />
+      <edge id="1064" source="Sweden" target="Copenhagen, Denmark" weight="5" />
+      <edge id="1065" source="Sweden" target="London" weight="11" />
+      <edge id="1066" source="Sweden" target="Stockholm, Sweden" weight="49" />
+      <edge id="1067" source="Sweden" target="Saint-Petersburg, Russia" weight="2" />
+      <edge id="1068" source="Sweden" target="Athens, Greece" weight="1" />
+      <edge id="1069" source="Sweden" target="Netherlands" weight="2" />
+      <edge id="1070" source="Sweden" target="Edinburgh, UK" weight="1" />
+      <edge id="1071" source="Sweden" target="Denmark" weight="3" />
+      <edge id="1072" source="Sweden" target="Poland" weight="1" />
+      <edge id="1073" source="Sweden" target="Madrid, Spain" weight="5" />
+      <edge id="1074" source="Sweden" target="Sweden" weight="32" />
+      <edge id="1075" source="Sweden" target="Switzerland" weight="1" />
+      <edge id="1076" source="Sweden" target="Malmö, Sweden" weight="14" />
+      <edge id="1077" source="Sweden" target="Gothenburg, Sweden" weight="12" />
+      <edge id="1078" source="Sweden" target="Vienna, Austria" weight="1" />
+      <edge id="1079" source="Sweden" target="Karlsruhe, Germany" weight="1" />
+      <edge id="1080" source="Sweden" target="Prague, Czech Republic" weight="2" />
+      <edge id="1081" source="Sweden" target="UK" weight="3" />
+      <edge id="1082" source="Sweden" target="Munich, Germany" weight="1" />
+      <edge id="1083" source="Sweden" target="Amsterdam" weight="2" />
+      <edge id="1084" source="Sweden" target="Hamburg, Germany" weight="3" />
+      <edge id="1085" source="Lausanne, Switzerland" target="Athens, Greece" weight="1" />
+      <edge id="1086" source="Lausanne, Switzerland" target="Zurich, Switzerland" weight="3" />
+      <edge id="1087" source="Lausanne, Switzerland" target="Lausanne, Switzerland" weight="16" />
+      <edge id="1088" source="Lausanne, Switzerland" target="Paris" weight="5" />
+      <edge id="1089" source="Lausanne, Switzerland" target="Copenhagen, Denmark" weight="2" />
+      <edge id="1090" source="Lausanne, Switzerland" target="Moscow" weight="1" />
+      <edge id="1091" source="Lausanne, Switzerland" target="Berlin, Germany" weight="3" />
+      <edge id="1092" source="Lausanne, Switzerland" target="Vienna, Austria" weight="2" />
+      <edge id="1093" source="Lausanne, Switzerland" target="France" weight="2" />
+      <edge id="1094" source="Lausanne, Switzerland" target="Nantes, France" weight="1" />
+      <edge id="1095" source="Lausanne, Switzerland" target="Germany" weight="3" />
+      <edge id="1096" source="Lausanne, Switzerland" target="Cologne, Germany" weight="2" />
+      <edge id="1097" source="Lausanne, Switzerland" target="Switzerland" weight="5" />
+      <edge id="1098" source="Lausanne, Switzerland" target="London" weight="3" />
+      <edge id="1099" source="Lausanne, Switzerland" target="Hamburg, Germany" weight="1" />
+      <edge id="1100" source="Lausanne, Switzerland" target="Bucharest, Romania" weight="1" />
+      <edge id="1101" source="Lausanne, Switzerland" target="Gothenburg, Sweden" weight="1" />
+      <edge id="1102" source="Bremen, Germany" target="Athens, Greece" weight="2" />
+      <edge id="1103" source="Bremen, Germany" target="Brighton, UK" weight="1" />
+      <edge id="1104" source="Bremen, Germany" target="Bath, UK" weight="1" />
+      <edge id="1105" source="Bremen, Germany" target="Leeds, UK" weight="1" />
+      <edge id="1106" source="Bremen, Germany" target="UK" weight="1" />
+      <edge id="1107" source="Bremen, Germany" target="Paris" weight="1" />
+      <edge id="1108" source="Bremen, Germany" target="Berlin, Germany" weight="6" />
+      <edge id="1109" source="Bremen, Germany" target="Sevilla" weight="1" />
+      <edge id="1110" source="Bremen, Germany" target="Milan, Italy" weight="1" />
+      <edge id="1111" source="Bremen, Germany" target="Czech Republic" weight="1" />
+      <edge id="1112" source="Bremen, Germany" target="Munich, Germany" weight="3" />
+      <edge id="1113" source="Bremen, Germany" target="London" weight="2" />
+      <edge id="1114" source="Bremen, Germany" target="Bremen, Germany" weight="13" />
+      <edge id="1115" source="Bremen, Germany" target="Cologne, Germany" weight="5" />
+      <edge id="1116" source="Bremen, Germany" target="Copenhagen, Denmark" weight="2" />
+      <edge id="1117" source="Bremen, Germany" target="Switzerland" weight="1" />
+      <edge id="1118" source="Bremen, Germany" target="Germany" weight="3" />
+      <edge id="1119" source="Bremen, Germany" target="Hamburg, Germany" weight="6" />
+      <edge id="1120" source="Switzerland" target="Porto, Portugal" weight="1" />
+      <edge id="1121" source="Switzerland" target="Cologne, Germany" weight="1" />
+      <edge id="1122" source="Switzerland" target="Lausanne, Switzerland" weight="8" />
+      <edge id="1123" source="Switzerland" target="Leeds, UK" weight="1" />
+      <edge id="1124" source="Switzerland" target="Graz, Austria" weight="1" />
+      <edge id="1125" source="Switzerland" target="Paris" weight="1" />
+      <edge id="1126" source="Switzerland" target="Denmark" weight="1" />
+      <edge id="1127" source="Switzerland" target="Madrid, Spain" weight="1" />
+      <edge id="1128" source="Switzerland" target="Berlin, Germany" weight="5" />
+      <edge id="1129" source="Switzerland" target="Barcelona" weight="1" />
+      <edge id="1130" source="Switzerland" target="Zurich, Switzerland" weight="21" />
+      <edge id="1131" source="Switzerland" target="Switzerland" weight="10" />
+      <edge id="1132" source="Switzerland" target="Netherlands" weight="2" />
+      <edge id="1133" source="Switzerland" target="London" weight="3" />
+      <edge id="1134" source="Switzerland" target="UK" weight="1" />
+      <edge id="1135" source="Switzerland" target="Amsterdam" weight="1" />
+      <edge id="1136" source="Switzerland" target="Munich, Germany" weight="3" />
+      <edge id="1137" source="Switzerland" target="Italy" weight="1" />
+      <edge id="1138" source="Switzerland" target="Germany" weight="3" />
+      <edge id="1139" source="Switzerland" target="Oslo, Norway" weight="1" />
+      <edge id="1140" source="Switzerland" target="Czech Republic" weight="1" />
+      <edge id="1141" source="Malmö, Sweden" target="Cambridge, UK" weight="1" />
+      <edge id="1142" source="Malmö, Sweden" target="Paris" weight="1" />
+      <edge id="1143" source="Malmö, Sweden" target="Helsinki, Finland" weight="1" />
+      <edge id="1144" source="Malmö, Sweden" target="Berlin, Germany" weight="1" />
+      <edge id="1145" source="Malmö, Sweden" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="1146" source="Malmö, Sweden" target="Sweden" weight="15" />
+      <edge id="1147" source="Malmö, Sweden" target="Zurich, Switzerland" weight="1" />
+      <edge id="1148" source="Malmö, Sweden" target="Austria" weight="1" />
+      <edge id="1149" source="Malmö, Sweden" target="London" weight="2" />
+      <edge id="1150" source="Malmö, Sweden" target="Cologne, Germany" weight="1" />
+      <edge id="1151" source="Malmö, Sweden" target="Copenhagen, Denmark" weight="6" />
+      <edge id="1152" source="Malmö, Sweden" target="Malmö, Sweden" weight="19" />
+      <edge id="1153" source="Malmö, Sweden" target="Stockholm, Sweden" weight="13" />
+      <edge id="1154" source="Malmö, Sweden" target="Hamburg, Germany" weight="3" />
+      <edge id="1155" source="Leipzig, Germany" target="Germany" weight="3" />
+      <edge id="1156" source="Leipzig, Germany" target="Chemnitz, Germany" weight="1" />
+      <edge id="1157" source="Leipzig, Germany" target="Cologne, Germany" weight="1" />
+      <edge id="1158" source="Leipzig, Germany" target="Lisbon, Portugal" weight="1" />
+      <edge id="1159" source="Leipzig, Germany" target="Moscow" weight="2" />
+      <edge id="1160" source="Leipzig, Germany" target="Berlin, Germany" weight="7" />
+      <edge id="1161" source="Leipzig, Germany" target="London" weight="1" />
+      <edge id="1162" source="Leipzig, Germany" target="UK" weight="2" />
+      <edge id="1163" source="Leipzig, Germany" target="Munich, Germany" weight="1" />
+      <edge id="1164" source="Leipzig, Germany" target="Karlsruhe, Germany" weight="2" />
+      <edge id="1165" source="Leipzig, Germany" target="Leipzig, Germany" weight="12" />
+      <edge id="1166" source="Leipzig, Germany" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="1167" source="Leipzig, Germany" target="Hamburg, Germany" weight="2" />
+      <edge id="1168" source="Gothenburg, Sweden" target="Athens, Greece" weight="1" />
+      <edge id="1169" source="Gothenburg, Sweden" target="Zurich, Switzerland" weight="1" />
+      <edge id="1170" source="Gothenburg, Sweden" target="Chemnitz, Germany" weight="1" />
+      <edge id="1171" source="Gothenburg, Sweden" target="Copenhagen, Denmark" weight="1" />
+      <edge id="1172" source="Gothenburg, Sweden" target="Moscow" weight="2" />
+      <edge id="1173" source="Gothenburg, Sweden" target="Madrid, Spain" weight="1" />
+      <edge id="1174" source="Gothenburg, Sweden" target="Sweden" weight="12" />
+      <edge id="1175" source="Gothenburg, Sweden" target="Vienna, Austria" weight="1" />
+      <edge id="1176" source="Gothenburg, Sweden" target="Nantes, France" weight="1" />
+      <edge id="1177" source="Gothenburg, Sweden" target="London" weight="5" />
+      <edge id="1178" source="Gothenburg, Sweden" target="Italy" weight="1" />
+      <edge id="1179" source="Gothenburg, Sweden" target="Germany" weight="2" />
+      <edge id="1180" source="Gothenburg, Sweden" target="Stockholm, Sweden" weight="10" />
+      <edge id="1181" source="Gothenburg, Sweden" target="Gothenburg, Sweden" weight="9" />
+      <edge id="1182" source="Porto, Portugal" target="Athens, Greece" weight="1" />
+      <edge id="1183" source="Porto, Portugal" target="Porto, Portugal" weight="30" />
+      <edge id="1184" source="Porto, Portugal" target="Netherlands" weight="1" />
+      <edge id="1185" source="Porto, Portugal" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="1186" source="Porto, Portugal" target="Coimbra, Portugal" weight="3" />
+      <edge id="1187" source="Porto, Portugal" target="Lisbon, Portugal" weight="2" />
+      <edge id="1188" source="Porto, Portugal" target="Berlin, Germany" weight="2" />
+      <edge id="1189" source="Porto, Portugal" target="Vienna, Austria" weight="1" />
+      <edge id="1190" source="Porto, Portugal" target="Cambridge, UK" weight="5" />
+      <edge id="1191" source="Porto, Portugal" target="London" weight="1" />
+      <edge id="1192" source="Porto, Portugal" target="Germany" weight="1" />
+      <edge id="1193" source="Porto, Portugal" target="Oslo, Norway" weight="1" />
+      <edge id="1194" source="Amsterdam, The Netherlands" target="Netherlands" weight="23" />
+      <edge id="1195" source="Amsterdam, The Netherlands" target="Chemnitz, Germany" weight="1" />
+      <edge id="1196" source="Amsterdam, The Netherlands" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="1197" source="Amsterdam, The Netherlands" target="Paris" weight="1" />
+      <edge id="1198" source="Amsterdam, The Netherlands" target="Denmark" weight="1" />
+      <edge id="1199" source="Amsterdam, The Netherlands" target="Moscow" weight="1" />
+      <edge id="1200" source="Amsterdam, The Netherlands" target="Berlin, Germany" weight="1" />
+      <edge id="1201" source="Amsterdam, The Netherlands" target="Vienna, Austria" weight="1" />
+      <edge id="1202" source="Amsterdam, The Netherlands" target="Barcelona" weight="1" />
+      <edge id="1203" source="Amsterdam, The Netherlands" target="Germany" weight="1" />
+      <edge id="1204" source="Amsterdam, The Netherlands" target="Amsterdam, The Netherlands" weight="16" />
+      <edge id="1205" source="Amsterdam, The Netherlands" target="Sweden" weight="1" />
+      <edge id="1206" source="Amsterdam, The Netherlands" target="London" weight="7" />
+      <edge id="1207" source="Amsterdam, The Netherlands" target="Cologne, Germany" weight="1" />
+      <edge id="1208" source="Amsterdam, The Netherlands" target="Amsterdam" weight="21" />
+      <edge id="1209" source="Amsterdam, The Netherlands" target="Belgium" weight="1" />
+      <edge id="1210" source="Amsterdam, The Netherlands" target="Italy" weight="1" />
+      <edge id="1211" source="Amsterdam, The Netherlands" target="Leipzig, Germany" weight="1" />
+      <edge id="1212" source="Amsterdam, The Netherlands" target="Manchester, UK" weight="1" />
+      <edge id="1213" source="Amsterdam, The Netherlands" target="Gothenburg, Sweden" weight="1" />
+      <edge id="1214" source="Chemnitz, Germany" target="Amsterdam, The Netherlands" weight="2" />
+      <edge id="1215" source="Chemnitz, Germany" target="Chemnitz, Germany" weight="2" />
+      <edge id="1216" source="Chemnitz, Germany" target="Graz, Austria" weight="1" />
+      <edge id="1217" source="Chemnitz, Germany" target="Birmingham, UK" weight="1" />
+      <edge id="1218" source="Chemnitz, Germany" target="Moscow" weight="2" />
+      <edge id="1219" source="Chemnitz, Germany" target="Berlin, Germany" weight="1" />
+      <edge id="1220" source="Chemnitz, Germany" target="Vienna, Austria" weight="1" />
+      <edge id="1221" source="Chemnitz, Germany" target="Germany" weight="2" />
+      <edge id="1222" source="Chemnitz, Germany" target="Cambridge, UK" weight="1" />
+      <edge id="1223" source="Chemnitz, Germany" target="London" weight="7" />
+      <edge id="1224" source="Chemnitz, Germany" target="UK" weight="1" />
+      <edge id="1225" source="Chemnitz, Germany" target="Munich, Germany" weight="1" />
+      <edge id="1226" source="Chemnitz, Germany" target="Karlsruhe, Germany" weight="1" />
+      <edge id="1227" source="Chemnitz, Germany" target="Hamburg, Germany" weight="1" />
+      <edge id="1228" source="Chemnitz, Germany" target="Norway" weight="1" />
+      <edge id="1229" source="Chemnitz, Germany" target="Oslo, Norway" weight="1" />
+      <edge id="1230" source="Chemnitz, Germany" target="Gothenburg, Sweden" weight="1" />
+      <edge id="1231" source="Helsinki, Finland" target="Porto, Portugal" weight="1" />
+      <edge id="1232" source="Helsinki, Finland" target="Glasgow, Scotland" weight="1" />
+      <edge id="1233" source="Helsinki, Finland" target="Italy" weight="2" />
+      <edge id="1234" source="Helsinki, Finland" target="Paris" weight="1" />
+      <edge id="1235" source="Helsinki, Finland" target="Manchester, UK" weight="2" />
+      <edge id="1236" source="Helsinki, Finland" target="Moscow" weight="1" />
+      <edge id="1237" source="Helsinki, Finland" target="Madrid, Spain" weight="1" />
+      <edge id="1238" source="Helsinki, Finland" target="Helsinki, Finland" weight="54" />
+      <edge id="1239" source="Helsinki, Finland" target="Switzerland" weight="1" />
+      <edge id="1240" source="Helsinki, Finland" target="Amsterdam" weight="1" />
+      <edge id="1241" source="Helsinki, Finland" target="London" weight="2" />
+      <edge id="1242" source="Helsinki, Finland" target="Berlin, Germany" weight="1" />
+      <edge id="1243" source="Helsinki, Finland" target="Graz, Austria" weight="1" />
+      <edge id="1244" source="Helsinki, Finland" target="Copenhagen, Denmark" weight="1" />
+      <edge id="1245" source="Helsinki, Finland" target="Munich, Germany" weight="1" />
+      <edge id="1246" source="Helsinki, Finland" target="Germany" weight="1" />
+      <edge id="1247" source="Helsinki, Finland" target="Malmö, Sweden" weight="1" />
+      <edge id="1248" source="Helsinki, Finland" target="Saint-Petersburg, Russia" weight="2" />
+      <edge id="1249" source="Saint-Laurent-du-Var, France" target="Paris" weight="2" />
+      <edge id="1250" source="Saint-Laurent-du-Var, France" target="Montpellier, France" weight="2" />
+      <edge id="1251" source="Saint-Laurent-du-Var, France" target="Barcelona" weight="1" />
+      <edge id="1252" source="Saint-Laurent-du-Var, France" target="Lyon, France" weight="1" />
+      <edge id="1253" source="Vienna, Austria" target="Leeds, UK" weight="1" />
+      <edge id="1254" source="Vienna, Austria" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="1255" source="Vienna, Austria" target="Paris" weight="2" />
+      <edge id="1256" source="Vienna, Austria" target="Copenhagen, Denmark" weight="1" />
+      <edge id="1257" source="Vienna, Austria" target="Berlin, Germany" weight="9" />
+      <edge id="1258" source="Vienna, Austria" target="Glasgow, Scotland" weight="2" />
+      <edge id="1259" source="Vienna, Austria" target="Italy" weight="1" />
+      <edge id="1260" source="Vienna, Austria" target="Birmingham, UK" weight="1" />
+      <edge id="1261" source="Vienna, Austria" target="Norway" weight="1" />
+      <edge id="1262" source="Vienna, Austria" target="Cambridge, UK" weight="1" />
+      <edge id="1263" source="Vienna, Austria" target="Lausanne, Switzerland" weight="2" />
+      <edge id="1264" source="Vienna, Austria" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="1265" source="Vienna, Austria" target="Moscow" weight="5" />
+      <edge id="1266" source="Vienna, Austria" target="Brighton, UK" weight="2" />
+      <edge id="1267" source="Vienna, Austria" target="Milan, Italy" weight="1" />
+      <edge id="1268" source="Vienna, Austria" target="Germany" weight="11" />
+      <edge id="1269" source="Vienna, Austria" target="Karlsruhe, Germany" weight="1" />
+      <edge id="1270" source="Vienna, Austria" target="Brussels" weight="1" />
+      <edge id="1271" source="Vienna, Austria" target="Stockholm, Sweden" weight="2" />
+      <edge id="1272" source="Vienna, Austria" target="Athens, Greece" weight="1" />
+      <edge id="1273" source="Vienna, Austria" target="Madrid, Spain" weight="2" />
+      <edge id="1274" source="Vienna, Austria" target="UK" weight="3" />
+      <edge id="1275" source="Vienna, Austria" target="Lyon, France" weight="1" />
+      <edge id="1276" source="Vienna, Austria" target="Denmark" weight="1" />
+      <edge id="1277" source="Vienna, Austria" target="Rome, Italy" weight="1" />
+      <edge id="1278" source="Vienna, Austria" target="Barcelona" weight="2" />
+      <edge id="1279" source="Vienna, Austria" target="Sweden" weight="3" />
+      <edge id="1280" source="Vienna, Austria" target="Switzerland" weight="1" />
+      <edge id="1281" source="Vienna, Austria" target="Porto, Portugal" weight="1" />
+      <edge id="1282" source="Vienna, Austria" target="Chemnitz, Germany" weight="2" />
+      <edge id="1283" source="Vienna, Austria" target="Vienna, Austria" weight="113" />
+      <edge id="1284" source="Vienna, Austria" target="Austria" weight="16" />
+      <edge id="1285" source="Vienna, Austria" target="Warsaw, Poland" weight="1" />
+      <edge id="1286" source="Vienna, Austria" target="London" weight="13" />
+      <edge id="1287" source="Vienna, Austria" target="Prague, Czech Republic" weight="1" />
+      <edge id="1288" source="Vienna, Austria" target="Graz, Austria" weight="4" />
+      <edge id="1289" source="Vienna, Austria" target="Munich, Germany" weight="10" />
+      <edge id="1290" source="Vienna, Austria" target="Amsterdam" weight="3" />
+      <edge id="1291" source="Vienna, Austria" target="Hamburg, Germany" weight="2" />
+      <edge id="1292" source="Zurich, Switzerland" target="Italy" weight="1" />
+      <edge id="1293" source="Zurich, Switzerland" target="Paris" weight="8" />
+      <edge id="1294" source="Zurich, Switzerland" target="Berlin, Germany" weight="10" />
+      <edge id="1295" source="Zurich, Switzerland" target="Cambridge, UK" weight="3" />
+      <edge id="1296" source="Zurich, Switzerland" target="Dublin, Ireland" weight="1" />
+      <edge id="1297" source="Zurich, Switzerland" target="Cologne, Germany" weight="1" />
+      <edge id="1298" source="Zurich, Switzerland" target="Oslo, Norway" weight="1" />
+      <edge id="1299" source="Zurich, Switzerland" target="Bucharest, Romania" weight="1" />
+      <edge id="1300" source="Zurich, Switzerland" target="Lausanne, Switzerland" weight="1" />
+      <edge id="1301" source="Zurich, Switzerland" target="Moscow" weight="2" />
+      <edge id="1302" source="Zurich, Switzerland" target="Milan, Italy" weight="1" />
+      <edge id="1303" source="Zurich, Switzerland" target="Austria" weight="1" />
+      <edge id="1304" source="Zurich, Switzerland" target="Rome, Italy" weight="1" />
+      <edge id="1305" source="Zurich, Switzerland" target="Germany" weight="6" />
+      <edge id="1306" source="Zurich, Switzerland" target="Stockholm, Sweden" weight="4" />
+      <edge id="1307" source="Zurich, Switzerland" target="Netherlands" weight="2" />
+      <edge id="1308" source="Zurich, Switzerland" target="Coimbra, Portugal" weight="2" />
+      <edge id="1309" source="Zurich, Switzerland" target="Minsk, Belarus" weight="1" />
+      <edge id="1310" source="Zurich, Switzerland" target="Madrid, Spain" weight="1" />
+      <edge id="1311" source="Zurich, Switzerland" target="Barcelona" weight="1" />
+      <edge id="1312" source="Zurich, Switzerland" target="Montpellier, France" weight="1" />
+      <edge id="1313" source="Zurich, Switzerland" target="Switzerland" weight="24" />
+      <edge id="1314" source="Zurich, Switzerland" target="Malmö, Sweden" weight="2" />
+      <edge id="1315" source="Zurich, Switzerland" target="Gothenburg, Sweden" weight="1" />
+      <edge id="1316" source="Zurich, Switzerland" target="Porto, Portugal" weight="1" />
+      <edge id="1317" source="Zurich, Switzerland" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="1318" source="Zurich, Switzerland" target="Vienna, Austria" weight="3" />
+      <edge id="1319" source="Zurich, Switzerland" target="Zurich, Switzerland" weight="38" />
+      <edge id="1320" source="Zurich, Switzerland" target="Nantes, France" weight="2" />
+      <edge id="1321" source="Zurich, Switzerland" target="Warsaw, Poland" weight="5" />
+      <edge id="1322" source="Zurich, Switzerland" target="London" weight="4" />
+      <edge id="1323" source="Zurich, Switzerland" target="Munich, Germany" weight="1" />
+      <edge id="1324" source="Zurich, Switzerland" target="Hamburg, Germany" weight="2" />
+      <edge id="1325" source="Graz, Austria" target="Oslo, Norway" weight="1" />
+      <edge id="1326" source="Graz, Austria" target="Chemnitz, Germany" weight="1" />
+      <edge id="1327" source="Graz, Austria" target="Graz, Austria" weight="2" />
+      <edge id="1328" source="Graz, Austria" target="Helsinki, Finland" weight="1" />
+      <edge id="1329" source="Graz, Austria" target="Moscow" weight="2" />
+      <edge id="1330" source="Graz, Austria" target="Rome, Italy" weight="1" />
+      <edge id="1331" source="Graz, Austria" target="Berlin, Germany" weight="6" />
+      <edge id="1332" source="Graz, Austria" target="Vienna, Austria" weight="3" />
+      <edge id="1333" source="Graz, Austria" target="Amsterdam, The Netherlands" weight="1" />
+      <edge id="1334" source="Graz, Austria" target="Austria" weight="3" />
+      <edge id="1335" source="Graz, Austria" target="London" weight="2" />
+      <edge id="1336" source="Graz, Austria" target="UK" weight="1" />
+      <edge id="1337" source="Graz, Austria" target="Amsterdam" weight="1" />
+      <edge id="1338" source="Graz, Austria" target="Italy" weight="1" />
+      <edge id="1339" source="Graz, Austria" target="Germany" weight="2" />
+      <edge id="1340" source="Graz, Austria" target="Stockholm, Sweden" weight="1" />
+      <edge id="1341" source="Graz, Austria" target="Hamburg, Germany" weight="2" />
+      <edge id="1342" source="Warsaw, Poland" target="Lisbon, Portugal" weight="1" />
+      <edge id="1343" source="Warsaw, Poland" target="Paris" weight="2" />
+      <edge id="1344" source="Warsaw, Poland" target="Berlin, Germany" weight="2" />
+      <edge id="1345" source="Warsaw, Poland" target="Oslo, Norway" weight="3" />
+      <edge id="1346" source="Warsaw, Poland" target="Birmingham, UK" weight="6" />
+      <edge id="1347" source="Warsaw, Poland" target="Moscow" weight="1" />
+      <edge id="1348" source="Warsaw, Poland" target="Brighton, UK" weight="1" />
+      <edge id="1349" source="Warsaw, Poland" target="Helsinki, Finland" weight="1" />
+      <edge id="1350" source="Warsaw, Poland" target="Germany" weight="1" />
+      <edge id="1351" source="Warsaw, Poland" target="Stockholm, Sweden" weight="1" />
+      <edge id="1352" source="Warsaw, Poland" target="Athens, Greece" weight="2" />
+      <edge id="1353" source="Warsaw, Poland" target="Glasgow, Scotland" weight="1" />
+      <edge id="1354" source="Warsaw, Poland" target="UK" weight="2" />
+      <edge id="1355" source="Warsaw, Poland" target="Poland" weight="7" />
+      <edge id="1356" source="Warsaw, Poland" target="Rome, Italy" weight="1" />
+      <edge id="1357" source="Warsaw, Poland" target="Barcelona" weight="1" />
+      <edge id="1358" source="Warsaw, Poland" target="Switzerland" weight="1" />
+      <edge id="1359" source="Warsaw, Poland" target="Zurich, Switzerland" weight="1" />
+      <edge id="1360" source="Warsaw, Poland" target="Warsaw, Poland" weight="20" />
+      <edge id="1361" source="Warsaw, Poland" target="London" weight="9" />
+      <edge id="1362" source="Warsaw, Poland" target="Prague, Czech Republic" weight="1" />
+      <edge id="1363" source="Warsaw, Poland" target="Graz, Austria" weight="1" />
+      <edge id="1364" source="London" target="Leeds, UK" weight="11" />
+      <edge id="1365" source="London" target="Potsdam, Berlin, Germany" weight="4" />
+      <edge id="1366" source="London" target="Lisbon, Portugal" weight="3" />
+      <edge id="1367" source="London" target="Paris" weight="36" />
+      <edge id="1368" source="London" target="Copenhagen, Denmark" weight="5" />
+      <edge id="1369" source="London" target="Berlin, Germany" weight="83" />
+      <edge id="1370" source="London" target="France" weight="6" />
+      <edge id="1371" source="London" target="Netherlands" weight="10" />
+      <edge id="1372" source="London" target="Dublin, Ireland" weight="3" />
+      <edge id="1373" source="London" target="Cologne, Germany" weight="10" />
+      <edge id="1374" source="London" target="Trondheim, Norway" weight="6" />
+      <edge id="1375" source="London" target="Italy" weight="11" />
+      <edge id="1376" source="London" target="Birmingham, UK" weight="9" />
+      <edge id="1377" source="London" target="Oslo, Norway" weight="27" />
+      <edge id="1378" source="London" target="Manchester, UK" weight="25" />
+      <edge id="1379" source="London" target="Cambridge, UK" weight="49" />
+      <edge id="1380" source="London" target="Czech Republic" weight="7" />
+      <edge id="1381" source="London" target="Bath, UK" weight="13" />
+      <edge id="1382" source="London" target="Norway" weight="2" />
+      <edge id="1383" source="London" target="Moscow" weight="20" />
+      <edge id="1384" source="London" target="Brighton, UK" weight="85" />
+      <edge id="1385" source="London" target="Helsinki, Finland" weight="2" />
+      <edge id="1386" source="London" target="Austria" weight="5" />
+      <edge id="1387" source="London" target="Germany" weight="27" />
+      <edge id="1388" source="London" target="Belgium" weight="8" />
+      <edge id="1389" source="London" target="Karlsruhe, Germany" weight="4" />
+      <edge id="1390" source="London" target="Saint-Petersburg, Russia" weight="3" />
+      <edge id="1391" source="London" target="Amsterdam, The Netherlands" weight="13" />
+      <edge id="1392" source="London" target="Stockholm, Sweden" weight="15" />
+      <edge id="1393" source="London" target="Spain" weight="1" />
+      <edge id="1394" source="London" target="Athens, Greece" weight="10" />
+      <edge id="1395" source="London" target="Rome, Italy" weight="5" />
+      <edge id="1396" source="London" target="Edinburgh, UK" weight="9" />
+      <edge id="1397" source="London" target="Coimbra, Portugal" weight="5" />
+      <edge id="1398" source="London" target="Lyon, France" weight="4" />
+      <edge id="1399" source="London" target="Minsk, Belarus" weight="3" />
+      <edge id="1400" source="London" target="Denmark" weight="5" />
+      <edge id="1401" source="London" target="Poland" weight="4" />
+      <edge id="1402" source="London" target="Madrid, Spain" weight="8" />
+      <edge id="1403" source="London" target="Barcelona" weight="33" />
+      <edge id="1404" source="London" target="Sweden" weight="6" />
+      <edge id="1405" source="London" target="Lausanne, Switzerland" weight="2" />
+      <edge id="1406" source="London" target="Bremen, Germany" weight="2" />
+      <edge id="1407" source="London" target="Switzerland" weight="13" />
+      <edge id="1408" source="London" target="Malmö, Sweden" weight="2" />
+      <edge id="1409" source="London" target="Gothenburg, Sweden" weight="11" />
+      <edge id="1410" source="London" target="Glasgow, Scotland" weight="15" />
+      <edge id="1411" source="London" target="Brussels" weight="7" />
+      <edge id="1412" source="London" target="Milan, Italy" weight="9" />
+      <edge id="1413" source="London" target="Chemnitz, Germany" weight="12" />
+      <edge id="1414" source="London" target="Porto, Portugal" weight="8" />
+      <edge id="1415" source="London" target="Sevilla" weight="4" />
+      <edge id="1416" source="London" target="Saint-Laurent-du-Var, France" weight="3" />
+      <edge id="1417" source="London" target="Vienna, Austria" weight="20" />
+      <edge id="1418" source="London" target="Zurich, Switzerland" weight="3" />
+      <edge id="1419" source="London" target="Nantes, France" weight="2" />
+      <edge id="1420" source="London" target="Warsaw, Poland" weight="6" />
+      <edge id="1421" source="London" target="London" weight="1381" />
+      <edge id="1422" source="London" target="Prague, Czech Republic" weight="7" />
+      <edge id="1423" source="London" target="UK" weight="121" />
+      <edge id="1424" source="London" target="Munich, Germany" weight="19" />
+      <edge id="1425" source="London" target="Amsterdam" weight="9" />
+      <edge id="1426" source="London" target="Hamburg, Germany" weight="20" />
+      <edge id="1427" source="Prague, Czech Republic" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="1428" source="Prague, Czech Republic" target="France" weight="1" />
+      <edge id="1429" source="Prague, Czech Republic" target="Dublin, Ireland" weight="1" />
+      <edge id="1430" source="Prague, Czech Republic" target="Cologne, Germany" weight="2" />
+      <edge id="1431" source="Prague, Czech Republic" target="Oslo, Norway" weight="1" />
+      <edge id="1432" source="Prague, Czech Republic" target="Czech Republic" weight="40" />
+      <edge id="1433" source="Prague, Czech Republic" target="Moscow" weight="4" />
+      <edge id="1434" source="Prague, Czech Republic" target="Milan, Italy" weight="1" />
+      <edge id="1435" source="Prague, Czech Republic" target="Germany" weight="5" />
+      <edge id="1436" source="Prague, Czech Republic" target="Brussels" weight="2" />
+      <edge id="1437" source="Prague, Czech Republic" target="Netherlands" weight="1" />
+      <edge id="1438" source="Prague, Czech Republic" target="Denmark" weight="1" />
+      <edge id="1439" source="Prague, Czech Republic" target="Madrid, Spain" weight="1" />
+      <edge id="1440" source="Prague, Czech Republic" target="Barcelona" weight="1" />
+      <edge id="1441" source="Prague, Czech Republic" target="Sweden" weight="1" />
+      <edge id="1442" source="Prague, Czech Republic" target="Gothenburg, Sweden" weight="1" />
+      <edge id="1443" source="Prague, Czech Republic" target="Vienna, Austria" weight="2" />
+      <edge id="1444" source="Prague, Czech Republic" target="Zurich, Switzerland" weight="1" />
+      <edge id="1445" source="Prague, Czech Republic" target="London" weight="13" />
+      <edge id="1446" source="Prague, Czech Republic" target="Prague, Czech Republic" weight="47" />
+      <edge id="1447" source="Prague, Czech Republic" target="UK" weight="3" />
+      <edge id="1448" source="Prague, Czech Republic" target="Amsterdam" weight="1" />
+      <edge id="1449" source="UK" target="Leeds, UK" weight="7" />
+      <edge id="1450" source="UK" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="1451" source="UK" target="Lisbon, Portugal" weight="1" />
+      <edge id="1452" source="UK" target="Paris" weight="3" />
+      <edge id="1453" source="UK" target="Copenhagen, Denmark" weight="4" />
+      <edge id="1454" source="UK" target="Berlin, Germany" weight="4" />
+      <edge id="1455" source="UK" target="France" weight="2" />
+      <edge id="1456" source="UK" target="Netherlands" weight="3" />
+      <edge id="1457" source="UK" target="Dublin, Ireland" weight="4" />
+      <edge id="1458" source="UK" target="Cologne, Germany" weight="2" />
+      <edge id="1459" source="UK" target="Italy" weight="4" />
+      <edge id="1460" source="UK" target="Birmingham, UK" weight="4" />
+      <edge id="1461" source="UK" target="Oslo, Norway" weight="3" />
+      <edge id="1462" source="UK" target="Manchester, UK" weight="15" />
+      <edge id="1463" source="UK" target="Cambridge, UK" weight="5" />
+      <edge id="1464" source="UK" target="Bath, UK" weight="5" />
+      <edge id="1465" source="UK" target="Norway" weight="2" />
+      <edge id="1466" source="UK" target="Moscow" weight="4" />
+      <edge id="1467" source="UK" target="Brighton, UK" weight="9" />
+      <edge id="1468" source="UK" target="Milan, Italy" weight="2" />
+      <edge id="1469" source="UK" target="Germany" weight="13" />
+      <edge id="1470" source="UK" target="Brussels" weight="1" />
+      <edge id="1471" source="UK" target="Stockholm, Sweden" weight="2" />
+      <edge id="1472" source="UK" target="Spain" weight="1" />
+      <edge id="1473" source="UK" target="Glasgow, Scotland" weight="3" />
+      <edge id="1474" source="UK" target="Edinburgh, UK" weight="2" />
+      <edge id="1475" source="UK" target="Lyon, France" weight="1" />
+      <edge id="1476" source="UK" target="Minsk, Belarus" weight="2" />
+      <edge id="1477" source="UK" target="Ghent, Belgium" weight="2" />
+      <edge id="1478" source="UK" target="Poland" weight="1" />
+      <edge id="1479" source="UK" target="Barcelona" weight="3" />
+      <edge id="1480" source="UK" target="Sweden" weight="4" />
+      <edge id="1481" source="UK" target="Lausanne, Switzerland" weight="1" />
+      <edge id="1482" source="UK" target="Switzerland" weight="3" />
+      <edge id="1483" source="UK" target="Leipzig, Germany" weight="2" />
+      <edge id="1484" source="UK" target="Chemnitz, Germany" weight="1" />
+      <edge id="1485" source="UK" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="1486" source="UK" target="Vienna, Austria" weight="1" />
+      <edge id="1487" source="UK" target="Zurich, Switzerland" weight="1" />
+      <edge id="1488" source="UK" target="Austria" weight="1" />
+      <edge id="1489" source="UK" target="Warsaw, Poland" weight="1" />
+      <edge id="1490" source="UK" target="London" weight="93" />
+      <edge id="1491" source="UK" target="Prague, Czech Republic" weight="2" />
+      <edge id="1492" source="UK" target="UK" weight="44" />
+      <edge id="1493" source="UK" target="Munich, Germany" weight="2" />
+      <edge id="1494" source="UK" target="Amsterdam" weight="1" />
+      <edge id="1495" source="UK" target="Hamburg, Germany" weight="2" />
+      <edge id="1496" source="Munich, Germany" target="Leeds, UK" weight="1" />
+      <edge id="1497" source="Munich, Germany" target="Potsdam, Berlin, Germany" weight="1" />
+      <edge id="1498" source="Munich, Germany" target="Paris" weight="1" />
+      <edge id="1499" source="Munich, Germany" target="Copenhagen, Denmark" weight="1" />
+      <edge id="1500" source="Munich, Germany" target="Berlin, Germany" weight="20" />
+      <edge id="1501" source="Munich, Germany" target="France" weight="2" />
+      <edge id="1502" source="Munich, Germany" target="Glasgow, Scotland" weight="1" />
+      <edge id="1503" source="Munich, Germany" target="Cologne, Germany" weight="5" />
+      <edge id="1504" source="Munich, Germany" target="Italy" weight="1" />
+      <edge id="1505" source="Munich, Germany" target="Oslo, Norway" weight="3" />
+      <edge id="1506" source="Munich, Germany" target="Manchester, UK" weight="1" />
+      <edge id="1507" source="Munich, Germany" target="Lausanne, Switzerland" weight="1" />
+      <edge id="1508" source="Munich, Germany" target="Norway" weight="1" />
+      <edge id="1509" source="Munich, Germany" target="Moscow" weight="2" />
+      <edge id="1510" source="Munich, Germany" target="Germany" weight="20" />
+      <edge id="1511" source="Munich, Germany" target="Denmark" weight="1" />
+      <edge id="1512" source="Munich, Germany" target="Belgium" weight="1" />
+      <edge id="1513" source="Munich, Germany" target="Karlsruhe, Germany" weight="5" />
+      <edge id="1514" source="Munich, Germany" target="Brussels" weight="1" />
+      <edge id="1515" source="Munich, Germany" target="Stockholm, Sweden" weight="2" />
+      <edge id="1516" source="Munich, Germany" target="Saint-Petersburg, Russia" weight="1" />
+      <edge id="1517" source="Munich, Germany" target="Athens, Greece" weight="3" />
+      <edge id="1518" source="Munich, Germany" target="Netherlands" weight="3" />
+      <edge id="1519" source="Munich, Germany" target="UK" weight="6" />
+      <edge id="1520" source="Munich, Germany" target="Ghent, Belgium" weight="1" />
+      <edge id="1521" source="Munich, Germany" target="Barcelona" weight="1" />
+      <edge id="1522" source="Munich, Germany" target="Sweden" weight="1" />
+      <edge id="1523" source="Munich, Germany" target="Switzerland" weight="2" />
+      <edge id="1524" source="Munich, Germany" target="Leipzig, Germany" weight="1" />
+      <edge id="1525" source="Munich, Germany" target="Chemnitz, Germany" weight="3" />
+      <edge id="1526" source="Munich, Germany" target="Sevilla" weight="1" />
+      <edge id="1527" source="Munich, Germany" target="Vienna, Austria" weight="6" />
+      <edge id="1528" source="Munich, Germany" target="Zurich, Switzerland" weight="2" />
+      <edge id="1529" source="Munich, Germany" target="Austria" weight="1" />
+      <edge id="1530" source="Munich, Germany" target="London" weight="20" />
+      <edge id="1531" source="Munich, Germany" target="Prague, Czech Republic" weight="2" />
+      <edge id="1532" source="Munich, Germany" target="Graz, Austria" weight="1" />
+      <edge id="1533" source="Munich, Germany" target="Munich, Germany" weight="87" />
+      <edge id="1534" source="Munich, Germany" target="Amsterdam" weight="1" />
+      <edge id="1535" source="Munich, Germany" target="Hamburg, Germany" weight="7" />
+      <edge id="1536" source="Amsterdam" target="Lisbon, Portugal" weight="1" />
+      <edge id="1537" source="Amsterdam" target="Paris" weight="4" />
+      <edge id="1538" source="Amsterdam" target="Milan, Italy" weight="1" />
+      <edge id="1539" source="Amsterdam" target="Berlin, Germany" weight="1" />
+      <edge id="1540" source="Amsterdam" target="Cologne, Germany" weight="1" />
+      <edge id="1541" source="Amsterdam" target="Oslo, Norway" weight="1" />
+      <edge id="1542" source="Amsterdam" target="Manchester, UK" weight="1" />
+      <edge id="1543" source="Amsterdam" target="Norway" weight="1" />
+      <edge id="1544" source="Amsterdam" target="Moscow" weight="2" />
+      <edge id="1545" source="Amsterdam" target="Helsinki, Finland" weight="1" />
+      <edge id="1546" source="Amsterdam" target="Germany" weight="4" />
+      <edge id="1547" source="Amsterdam" target="Copenhagen, Denmark" weight="3" />
+      <edge id="1548" source="Amsterdam" target="Belgium" weight="2" />
+      <edge id="1549" source="Amsterdam" target="Karlsruhe, Germany" weight="1" />
+      <edge id="1550" source="Amsterdam" target="Amsterdam, The Netherlands" weight="15" />
+      <edge id="1551" source="Amsterdam" target="Ukraine" weight="1" />
+      <edge id="1552" source="Amsterdam" target="Netherlands" weight="15" />
+      <edge id="1553" source="Amsterdam" target="UK" weight="4" />
+      <edge id="1554" source="Amsterdam" target="Madrid, Spain" weight="3" />
+      <edge id="1555" source="Amsterdam" target="Barcelona" weight="3" />
+      <edge id="1556" source="Amsterdam" target="Porto, Portugal" weight="1" />
+      <edge id="1557" source="Amsterdam" target="Brussels" weight="2" />
+      <edge id="1558" source="Amsterdam" target="London" weight="4" />
+      <edge id="1559" source="Amsterdam" target="Prague, Czech Republic" weight="1" />
+      <edge id="1560" source="Amsterdam" target="Graz, Austria" weight="2" />
+      <edge id="1561" source="Amsterdam" target="Munich, Germany" weight="2" />
+      <edge id="1562" source="Amsterdam" target="Amsterdam" weight="38" />
+      <edge id="1563" source="Amsterdam" target="Hamburg, Germany" weight="2" />
+      <edge id="1564" source="Hamburg, Germany" target="Italy" weight="1" />
+      <edge id="1565" source="Hamburg, Germany" target="Potsdam, Berlin, Germany" weight="2" />
+      <edge id="1566" source="Hamburg, Germany" target="Paris" weight="4" />
+      <edge id="1567" source="Hamburg, Germany" target="Copenhagen, Denmark" weight="1" />
+      <edge id="1568" source="Hamburg, Germany" target="Berlin, Germany" weight="29" />
+      <edge id="1569" source="Hamburg, Germany" target="France" weight="3" />
+      <edge id="1570" source="Hamburg, Germany" target="Glasgow, Scotland" weight="2" />
+      <edge id="1571" source="Hamburg, Germany" target="Cologne, Germany" weight="7" />
+      <edge id="1572" source="Hamburg, Germany" target="Chemnitz, Germany" weight="1" />
+      <edge id="1573" source="Hamburg, Germany" target="Oslo, Norway" weight="3" />
+      <edge id="1574" source="Hamburg, Germany" target="Manchester, UK" weight="3" />
+      <edge id="1575" source="Hamburg, Germany" target="Czech Republic" weight="5" />
+      <edge id="1576" source="Hamburg, Germany" target="Bath, UK" weight="1" />
+      <edge id="1577" source="Hamburg, Germany" target="Moscow" weight="8" />
+      <edge id="1578" source="Hamburg, Germany" target="Milan, Italy" weight="1" />
+      <edge id="1579" source="Hamburg, Germany" target="Germany" weight="37" />
+      <edge id="1580" source="Hamburg, Germany" target="Belgium" weight="3" />
+      <edge id="1581" source="Hamburg, Germany" target="Karlsruhe, Germany" weight="4" />
+      <edge id="1582" source="Hamburg, Germany" target="Stockholm, Sweden" weight="1" />
+      <edge id="1583" source="Hamburg, Germany" target="Ukraine" weight="1" />
+      <edge id="1584" source="Hamburg, Germany" target="Netherlands" weight="3" />
+      <edge id="1585" source="Hamburg, Germany" target="UK" weight="2" />
+      <edge id="1586" source="Hamburg, Germany" target="Lyon, France" weight="2" />
+      <edge id="1587" source="Hamburg, Germany" target="Denmark" weight="1" />
+      <edge id="1588" source="Hamburg, Germany" target="Barcelona" weight="8" />
+      <edge id="1589" source="Hamburg, Germany" target="Sweden" weight="3" />
+      <edge id="1590" source="Hamburg, Germany" target="Lausanne, Switzerland" weight="1" />
+      <edge id="1591" source="Hamburg, Germany" target="Bremen, Germany" weight="4" />
+      <edge id="1592" source="Hamburg, Germany" target="Switzerland" weight="1" />
+      <edge id="1593" source="Hamburg, Germany" target="Malmö, Sweden" weight="1" />
+      <edge id="1594" source="Hamburg, Germany" target="Leipzig, Germany" weight="1" />
+      <edge id="1595" source="Hamburg, Germany" target="Gothenburg, Sweden" weight="1" />
+      <edge id="1596" source="Hamburg, Germany" target="Saint-Laurent-du-Var, France" weight="1" />
+      <edge id="1597" source="Hamburg, Germany" target="Vienna, Austria" weight="4" />
+      <edge id="1598" source="Hamburg, Germany" target="Zurich, Switzerland" weight="5" />
+      <edge id="1599" source="Hamburg, Germany" target="London" weight="9" />
+      <edge id="1600" source="Hamburg, Germany" target="Graz, Austria" weight="2" />
+      <edge id="1601" source="Hamburg, Germany" target="Munich, Germany" weight="7" />
+      <edge id="1602" source="Hamburg, Germany" target="Amsterdam" weight="2" />
+      <edge id="1603" source="Hamburg, Germany" target="Hamburg, Germany" weight="205" />
+    </edges>
+  </graph>
+</gexf>
