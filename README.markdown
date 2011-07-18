@@ -1,6 +1,6 @@
 Divided Edge Bundling
 =====================
-Here is an implementation of the physical simulation of Divided Edge Bundling in a basic graph viewer. 
+Here is an implementation of the physical simulation of Divided Edge Bundling in a basic graph viewer.
 
 Requirements
 ------------
@@ -30,4 +30,8 @@ Tooltips are provided for the simulation parameters in the preferences.
 About
 -----
 More information can be found at the [website](http://selassid.github.com/DividedEdgeBundling) or by looking at the original paper in IEEE InfoVis 2011.
+
+License
+-------
+A 2-clause BSD license applies to the included source.
 
