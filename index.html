@@ -1,120 +1,119 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
+	<head>
+		<meta charset='utf-8'>
+		
+		<title>Divided Edge Bundling</title>
+		
+		<style type="text/css">
+			body {
+				margin-top: 1.0em;
+				background-color: #FFF;
+				font-family: Helvetica Neue;
+				text-rendering: optimizeLegibility;
+				color: #000;
+			}
+			#container {
+				margin: 0 auto;
+				width: 700px;
+			}
+			h1 { font-size: 4em; font-weight: 300; margin-bottom: 3px; }
+			h1 a { text-decoration: none }
+			h2 { font-size: 2em; font-weight: 300; }
+			h3 { text-align: center; font-weight: 300; }
+			a { color: #910000; }
+			.description {
+				font-size: 1.2em;
+				margin-bottom: 30px;
+				margin-top: 30px;
+				font-style: italic;
+			}
+			.download { float: right; }
+			pre { background: #000; color: #fff; padding: 15px;}
+			hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+			.footer { text-align:center; padding-top:30px; font-style: italic; }
+			.gallery { height: 272px; overflow: auto; white-space: nowrap; }
+			.gallery > img {
+				width: 256px;
+				height: 256px;
+				/*border-radius: 15px;*/
+				border: 1px solid gray;
+				margin: 0px 20px 10px 0px;
+			}
+			.banner { position:absolute; top:0; right:0; }
+		</style>
+	</head>
+	
+	<body>
+		<a href="http://github.com/selassid/DividedEdgeBundling"><img class="banner" width="149" height="149" src="forkme.png" alt="Fork me on GitHub" /></a>
+		
+		<div id="container">
 
-  <title>selassid/DividedEdgeBundling @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #FFF;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #000; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #000; }
-    h3 { text-align: center; color: #000; }
-    a { color: #27be83; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-
-      .ribbon {
-        background-color: #a00;
-        overflow: hidden;
-        /* top left corner */
-        position: absolute;
-        left: -3em;
-        top: 2.5em;
-        /* 45 deg ccw rotation */
-        -moz-transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-        /* shadow */
-        -moz-box-shadow: 0 0 1em #888;
-        -webkit-box-shadow: 0 0 1em #888;
-      }
-      .ribbon a {
-        border: 1px solid #faa;
-        color: #fff;
-        display: block;
-        font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
-        margin: 0.05em 0 0.075em 0;
-        padding: 0.5em 3.5em;
-        text-align: center;
-        text-decoration: none;
-        /* shadow */
-        text-shadow: 0 0 0.5em #444;
-      }
-  </style>
-</head>
-
-<body>
-  <div id="ribbon">
-    <a href="http://github.com/selassid/DividedEdgeBundling">Fork me on GitHub</a>
-  </div>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="http://github.com/selassid/DividedEdgeBundling/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/selassid/DividedEdgeBundling/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
-
-    <h1><a href="http://github.com/selassid/DividedEdgeBundling">DividedEdgeBundling</a>
-      <span class="small">by <a href="http://github.com/selassid">selassid</a></span></h1>
-
-    <div class="description">
-      Here is an implementation of the physical simulation of Divided Edge Bundling in a basic graph viewer.
-    </div>
-
-    <h2>Dependencies</h2>
-<p>OS X 10.6+
-Xcode 4+</p>
-<h2>License</h2>
-<p>2-Clause BSD</p>
-<h2>Authors</h2>
-<p>David Selassie
-<br/>      </p>
-<h2>Contact</h2>
-<p>selassid@stanford.edu</p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/selassid/DividedEdgeBundling/zipball/master">zip</a> or
-      <a href="http://github.com/selassid/DividedEdgeBundling/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/selassid/DividedEdgeBundling</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/selassid/DividedEdgeBundling">selassid/DividedEdgeBundling</a>
-    </div>
-
-  </div>
-
-  <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-24589783-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body>
+		<div class="download">
+			<a href="http://github.com/selassid/DividedEdgeBundling/zipball/master">
+			<img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+			<a href="http://github.com/selassid/DividedEdgeBundling/tarball/master">
+			<img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+		</div>
+		
+		<h1>Divided Edge Bundling</h1>
+		
+		<div class="description">
+			A technique to simplify directional node-link diagrams.
+		</div>
+		
+		<div class="gallery">
+			<img src="bay.png" /><img src="powernet.png" /><img src="3-3.png" /><img src="europe.png" />
+		</div>
+		
+		<h2>Dependencies</h2>
+		<ul>
+			<li>OS X 10.6+</li>
+			<li><a href="http://developer.apple.com/xcode/">Xcode 4</a>+</li>
+		</ul>
+		
+		<h2>Use</h2>
+		<ul>
+			<li>Get source.</li>
+			<li>Compile with Xcode 4.</li>
+			<li>Opens GEXF and GraphML files.</li>
+			<li>Press &quot;Magic Iteration&quot; to get started.</li>
+			<li>See <a href="https://github.com/selassid/DividedEdgeBundling/blob/master/README.markdown">README</a> for more information.</li>
+		</ul>
+		
+		<h2>License</h2>
+		<ul>
+			<li><a href="https://github.com/selassid/DividedEdgeBundling/blob/master/Credits.rtf">2-Clause BSD</a></li>
+		</ul>
+		
+		<h2>Authors</h2>
+		<ul>
+			<li>David Selassie - <a href="mailto:selassid@stanford.edu">selassid@stanford.edu</a></li>
+		</ul>
+		
+		
+		<h2>Download</h2>
+		<p>
+		Download in either <a href="http://github.com/selassid/DividedEdgeBundling/zipball/master">zip</a> or <a href="http://github.com/selassid/DividedEdgeBundling/tarball/master">tar</a> formats.
+		</p>
+		<p>Clone this project with <a href="http://git-scm.com">Git</a> by running:
+		<pre>$ git clone git://github.com/selassid/DividedEdgeBundling</pre>
+		</p>
+		
+		<div class="footer">
+			get the source code on GitHub : <a href="http://github.com/selassid/DividedEdgeBundling">selassid/DividedEdgeBundling</a>
+		</div>
+		
+		</div>
+		
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-24589783-1");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	</body>
 </html>
