@@ -9,7 +9,7 @@
 	<key>edgeColorType</key>
 	<integer>1</integer>
 	<key>edgeCoulombConstant</key>
-	<real>0.5</real>
+	<integer>1</integer>
 	<key>edgeCoulombDecay</key>
 	<real>35</real>
 	<key>edgeDeselectAlpha</key>

@@ -285,6 +285,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = EdgeBundling;
 			};
 			name = Debug;
@@ -301,6 +302,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = EdgeBundling;
 			};
 			name = Release;
@@ -316,7 +318,7 @@
 					"-lz",
 					"-lcrypto",
 				);
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -329,7 +331,7 @@
 					"-lz",
 					"-lcrypto",
 				);
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
