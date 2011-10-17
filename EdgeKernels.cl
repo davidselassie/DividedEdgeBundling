@@ -13,6 +13,8 @@
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+//#pragma OPENCL EXTENSION cl_intel_printf : enable
+
 uint TriIndex(uint,  uint,  uint);
 float Length(float4);
 float2 Midpoint(float4);
@@ -178,6 +180,41 @@ __kernel void EdgeForce(
     // Integrate ===============================
     float2 dt = (float2)(dtVal, dtVal);
     
+    // If an immovable point, skip integration; only calculate group weight.
+    if (edgePointIndex <= 0 || edgePointIndex >= meshCount - 1) {
+        for (uint otherEdgeIndex = 0; otherEdgeIndex < edgeCount; otherEdgeIndex++) {
+            if (edgeIndex == otherEdgeIndex)
+                continue;
+            
+            float edgeDot = edgeDotsInCL[TriIndex(edgeIndex, otherEdgeIndex, edgeCount)];
+            float otherEdgeWeight = edgeWeightsInCL[otherEdgeIndex];
+            
+            uint globalOtherPointIndex;
+            if (edgeDot >= 0.0f)
+                globalOtherPointIndex = otherEdgeIndex * meshCount + edgePointIndex;
+            else
+                globalOtherPointIndex = otherEdgeIndex * meshCount + meshCount - 1 - edgePointIndex;
+            
+            float2 otherPointPos = edgeMeshesInCL[globalOtherPointIndex];
+            
+            float2 dr = otherPointPos - pointPos;
+            float dist = sqrt(dr.x * dr.x + dr.y * dr.y);
+            
+            // If the point is on an edge that is being attracted directly to the other point and it's close enough,
+            //	(depending on the size of the other bundle) say they're in the same group.
+            float maxGroupRadius = pow(edgeWeight, bundleWidthPower) * edgeMaxWidth;
+            
+            if (edgeDot >= 0.0f && (dist <= edgeMinWidth || dist <= maxGroupRadius))
+                pointGroupWeight += otherEdgeWeight;
+        }
+        
+        edgeMeshGroupWeightsInCL[globalPointIndex] = pointGroupWeight;
+        
+        // Exit.
+        return;
+    }
+    // If we have a movable point, calculate dyamics and point group weight.
+
     pointVelocity += pointAcceleration * dt / 2.0f;
     pointVelocity *= velocityDamping;
     pointPos += pointVelocity * dt;
@@ -185,7 +222,7 @@ __kernel void EdgeForce(
 
 	// Force ===================================
     pointAcceleration = (float2)(0.0f, 0.0f);
-	
+
 	// Spring ------------------------------
 	float2 pointAdjPos = edgeMeshesInCL[globalPointIndex - 1];
 	float2 dr = pointAdjPos - pointPos;
@@ -198,7 +235,7 @@ __kernel void EdgeForce(
 	dist = sqrt(dr.x * dr.x + dr.y * dr.y);
 	force = edgeSpringConstant / 1000.0f * (meshCount - 1) * dist * edgeWeight;
 	pointAcceleration += force * normalize(dr);
-	
+
 	// Coulomb ---------------------------
 	// correct to the same average charge density.
 	edgeCoulombConstant /= sqrt((float)edgeCount);
@@ -240,10 +277,6 @@ __kernel void EdgeForce(
         
 		if (edgeDot >= 0.0f && (dist <= edgeMinWidth || dist <= maxGroupRadius))
 			pointGroupWeight += otherEdgeWeight;
-        
-        // If an immovable point, stop before force calculations. We only want to be adding up the weigts of other control points.
-        if (edgePointIndex <= 0 || edgePointIndex >= meshCount - 1)
-            continue;
 		
         // Inverse force.
         if (!useNewForce)
@@ -258,12 +291,10 @@ __kernel void EdgeForce(
 
 		pointAcceleration += force * normalize(dr);	// Mass is 1
 	}
-    // If an immovable point, skip integration.
-    if (!(edgePointIndex <= 0 || edgePointIndex >= meshCount - 1)) {
-        pointVelocity += pointAcceleration * dt / 2.0f;
-        edgeMeshVelocitiesInCL[globalPointIndex] = pointVelocity;
-        edgeMeshAccelerationsInCL[globalPointIndex] = pointAcceleration;
-    }
+
+    pointVelocity += pointAcceleration * dt / 2.0f;
+    edgeMeshVelocitiesInCL[globalPointIndex] = pointVelocity;
+    edgeMeshAccelerationsInCL[globalPointIndex] = pointAcceleration;
 
     edgeMeshGroupWeightsInCL[globalPointIndex] = pointGroupWeight;
 }
