@@ -41,6 +41,6 @@
 	<key>useNewForce</key>
 	<true/>
 	<key>velocityDamping</key>
-	<real>0.1</real>
+	<real>0.9</real>
 </dict>
 </plist>
