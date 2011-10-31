@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">11A511</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1617</string>
-		<string key="IBDocument.AppKitVersion">1138</string>
-		<string key="IBDocument.HIToolboxVersion">566.00</string>
+		<string key="IBDocument.SystemVersion">11C74</string>
+		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
+		<string key="IBDocument.AppKitVersion">1138.23</string>
+		<string key="IBDocument.HIToolboxVersion">567.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">1617</string>
+			<string key="NS.object.0">1938</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSTextField</string>
@@ -31,7 +31,10 @@
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 		</array>
-		<dictionary class="NSMutableDictionary" key="IBDocument.Metadata"/>
+		<object class="NSMutableDictionary" key="IBDocument.Metadata">
+			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
+			<integer value="1" key="NS.object.0"/>
+		</object>
 		<array class="NSMutableArray" key="IBDocument.RootObjects" id="1048">
 			<object class="NSCustomObject" id="1021">
 				<string key="NSClassName">NSApplication</string>
@@ -1389,9 +1392,9 @@
 								<int key="NSCellFlags2">0</int>
 								<string key="NSContents"/>
 								<reference key="NSControlView" ref="898038856"/>
-								<double key="NSMaxValue">1</double>
+								<double key="NSMaxValue">2</double>
 								<double key="NSMinValue">0.0</double>
-								<double key="NSValue">0.5</double>
+								<double key="NSValue">1</double>
 								<double key="NSAltIncValue">0.0</double>
 								<int key="NSNumberOfTickMarks">0</int>
 								<int key="NSTickMarkPosition">0</int>
@@ -2196,6 +2199,30 @@
 			<array class="NSMutableArray" key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
+						<string key="label">terminate:</string>
+						<reference key="source" ref="1050"/>
+						<reference key="destination" ref="632727374"/>
+					</object>
+					<int key="connectionID">449</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">orderFrontStandardAboutPanel:</string>
+						<reference key="source" ref="1021"/>
+						<reference key="destination" ref="238522557"/>
+					</object>
+					<int key="connectionID">142</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="1021"/>
+						<reference key="destination" ref="976324537"/>
+					</object>
+					<int key="connectionID">495</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
 						<string key="label">performMiniaturize:</string>
 						<reference key="source" ref="1014"/>
 						<reference key="destination" ref="1011231497"/>
@@ -2225,14 +2252,6 @@
 						<reference key="destination" ref="759406840"/>
 					</object>
 					<int key="connectionID">127</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">orderFrontStandardAboutPanel:</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="238522557"/>
-					</object>
-					<int key="connectionID">142</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -2420,14 +2439,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">terminate:</string>
-						<reference key="source" ref="1050"/>
-						<reference key="destination" ref="632727374"/>
-					</object>
-					<int key="connectionID">449</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
 						<string key="label">toggleAutomaticSpellingCorrection:</string>
 						<reference key="source" ref="1014"/>
 						<reference key="destination" ref="795346622"/>
@@ -2523,12 +2534,25 @@
 					<int key="connectionID">493</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="976324537"/>
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">displayPatternTitle1: url</string>
+						<reference key="source" ref="972006081"/>
+						<reference key="destination" ref="994993859"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="972006081"/>
+							<reference key="NSDestination" ref="994993859"/>
+							<string key="NSLabel">displayPatternTitle1: url</string>
+							<string key="NSBinding">displayPatternTitle1</string>
+							<string key="NSKeyPath">url</string>
+							<dictionary key="NSOptions">
+								<string key="NSDisplayPattern">%{title1}@</string>
+								<string key="NSNullPlaceholder">EdgeBundling</string>
+								<string key="NSValueTransformerName">URLLastPathComponentTransformer</string>
+							</dictionary>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
 					</object>
-					<int key="connectionID">495</int>
+					<int key="connectionID">1226</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -2537,38 +2561,6 @@
 						<reference key="destination" ref="972006081"/>
 					</object>
 					<int key="connectionID">532</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">menu</string>
-						<reference key="source" ref="1039440026"/>
-						<reference key="destination" ref="670370985"/>
-					</object>
-					<int key="connectionID">552</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">print:</string>
-						<reference key="source" ref="1039440026"/>
-						<reference key="destination" ref="49223823"/>
-					</object>
-					<int key="connectionID">571</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: runningEdgeForcing</string>
-						<reference key="source" ref="210774340"/>
-						<reference key="destination" ref="976324537"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="210774340"/>
-							<reference key="NSDestination" ref="976324537"/>
-							<string key="NSLabel">value: runningEdgeForcing</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">runningEdgeForcing</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">742</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -2620,14 +2612,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">dataSource</string>
-						<reference key="source" ref="1039440026"/>
-						<reference key="destination" ref="994993859"/>
-					</object>
-					<int key="connectionID">963</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">graphView</string>
 						<reference key="source" ref="976324537"/>
 						<reference key="destination" ref="1039440026"/>
@@ -2636,596 +2620,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">makeKeyAndOrderFront:</string>
-						<reference key="source" ref="208242965"/>
-						<reference key="destination" ref="609285721"/>
-					</object>
-					<int key="connectionID">974</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">makeKeyAndOrderFront:</string>
-						<reference key="source" ref="18351206"/>
-						<reference key="destination" ref="197112383"/>
-					</object>
-					<int key="connectionID">983</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">zoomIn:</string>
-						<reference key="source" ref="1039440026"/>
-						<reference key="destination" ref="1024779525"/>
-					</object>
-					<int key="connectionID">1088</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">zoomOut:</string>
-						<reference key="source" ref="1039440026"/>
-						<reference key="destination" ref="208940710"/>
-					</object>
-					<int key="connectionID">1089</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">displayPatternValue1: graphView.selectedNodeLabel</string>
-						<reference key="source" ref="589510602"/>
-						<reference key="destination" ref="976324537"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="589510602"/>
-							<reference key="NSDestination" ref="976324537"/>
-							<string key="NSLabel">displayPatternValue1: graphView.selectedNodeLabel</string>
-							<string key="NSBinding">displayPatternValue1</string>
-							<string key="NSKeyPath">graphView.selectedNodeLabel</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSDisplayPattern</string>
-								<string key="NS.object.0">Label: %{value1}@</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1130</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeAlpha</string>
-						<reference key="source" ref="768984584"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="768984584"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeAlpha</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeAlpha</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValidatesImmediately</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1148</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.nodeSize</string>
-						<reference key="source" ref="731414421"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="731414421"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.nodeSize</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.nodeSize</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValidatesImmediately</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1150</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.nodeSize</string>
-						<reference key="source" ref="737331047"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="737331047"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.nodeSize</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.nodeSize</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1152</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeAlpha</string>
-						<reference key="source" ref="475056557"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="475056557"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeAlpha</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeAlpha</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1154</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.showMesh</string>
-						<reference key="source" ref="73594085"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="73594085"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.showMesh</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.showMesh</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1158</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.showNodes</string>
-						<reference key="source" ref="377343712"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="377343712"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.showNodes</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.showNodes</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1160</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">selectedTag: values.edgeColorType</string>
-						<reference key="source" ref="510570477"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="510570477"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">selectedTag: values.edgeColorType</string>
-							<string key="NSBinding">selectedTag</string>
-							<string key="NSKeyPath">values.edgeColorType</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1162</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.velocityDamping</string>
-						<reference key="source" ref="960494505"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="960494505"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.velocityDamping</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.velocityDamping</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1165</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeCoulombConstant</string>
-						<reference key="source" ref="149399280"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="149399280"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeCoulombConstant</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeCoulombConstant</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1168</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeSpringConstant</string>
-						<reference key="source" ref="888105885"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="888105885"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeSpringConstant</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeSpringConstant</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1170</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeSpringConstant</string>
-						<reference key="source" ref="898038856"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="898038856"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeSpringConstant</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeSpringConstant</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValidatesImmediately</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1174</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeCoulombConstant</string>
-						<reference key="source" ref="734942761"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="734942761"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeCoulombConstant</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeCoulombConstant</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValidatesImmediately</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1176</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.velocityDamping</string>
-						<reference key="source" ref="758180798"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="758180798"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.velocityDamping</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.velocityDamping</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValidatesImmediately</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1178</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeLaneWidth</string>
-						<reference key="source" ref="330637999"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="330637999"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeLaneWidth</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeLaneWidth</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValidatesImmediately</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1180</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeLaneWidth</string>
-						<reference key="source" ref="607044885"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="607044885"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeLaneWidth</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeLaneWidth</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1182</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeMaxWidth</string>
-						<reference key="source" ref="273603020"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="273603020"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeMaxWidth</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeMaxWidth</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValidatesImmediately</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1184</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeMaxWidth</string>
-						<reference key="source" ref="982145822"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="982145822"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeMaxWidth</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeMaxWidth</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1186</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.bundleWidthPower</string>
-						<reference key="source" ref="746214341"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="746214341"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.bundleWidthPower</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.bundleWidthPower</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValidatesImmediately</string>
-								<boolean value="YES" key="NS.object.0"/>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1188</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.bundleWidthPower</string>
-						<reference key="source" ref="770269904"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="770269904"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.bundleWidthPower</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.bundleWidthPower</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1190</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.useGPUDevice</string>
-						<reference key="source" ref="970713243"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="970713243"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.useGPUDevice</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.useGPUDevice</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1192</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.showMesh</string>
-						<reference key="source" ref="894931404"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="894931404"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.showMesh</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.showMesh</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1200</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.showNodes</string>
-						<reference key="source" ref="319958893"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="319958893"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.showNodes</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.showNodes</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1202</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
 						<string key="label">resetPreferences:</string>
 						<reference key="source" ref="976324537"/>
 						<reference key="destination" ref="866388244"/>
 					</object>
 					<int key="connectionID">1205</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">hidden: runningEdgeForcing</string>
-						<reference key="source" ref="512452294"/>
-						<reference key="destination" ref="976324537"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="512452294"/>
-							<reference key="NSDestination" ref="976324537"/>
-							<string key="NSLabel">hidden: runningEdgeForcing</string>
-							<string key="NSBinding">hidden</string>
-							<string key="NSKeyPath">runningEdgeForcing</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValueTransformerName</string>
-								<string key="NS.object.0">NSNegateBoolean</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1220</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">displayPatternValue1: FPSString</string>
-						<reference key="source" ref="512452294"/>
-						<reference key="destination" ref="976324537"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="512452294"/>
-							<reference key="NSDestination" ref="976324537"/>
-							<string key="NSLabel">displayPatternValue1: FPSString</string>
-							<string key="NSBinding">displayPatternValue1</string>
-							<string key="NSKeyPath">FPSString</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSDisplayPattern</string>
-								<string key="NS.object.0">%{value1}@ FPS</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1223</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">resetView:</string>
-						<reference key="source" ref="1039440026"/>
-						<reference key="destination" ref="909129949"/>
-					</object>
-					<int key="connectionID">1224</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">displayPatternTitle1: url</string>
-						<reference key="source" ref="972006081"/>
-						<reference key="destination" ref="994993859"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="972006081"/>
-							<reference key="NSDestination" ref="994993859"/>
-							<string key="NSLabel">displayPatternTitle1: url</string>
-							<string key="NSBinding">displayPatternTitle1</string>
-							<string key="NSKeyPath">url</string>
-							<dictionary key="NSOptions">
-								<string key="NSDisplayPattern">%{title1}@</string>
-								<string key="NSNullPlaceholder">EdgeBundling</string>
-								<string key="NSValueTransformerName">URLLastPathComponentTransformer</string>
-							</dictionary>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1226</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.useCompat</string>
-						<reference key="source" ref="62383973"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="62383973"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.useCompat</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.useCompat</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1233</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.useConnectCompat</string>
-						<reference key="source" ref="940440202"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="940440202"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.useConnectCompat</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.useConnectCompat</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1234</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: meshCount</string>
-						<reference key="source" ref="1000857933"/>
-						<reference key="destination" ref="994993859"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="1000857933"/>
-							<reference key="NSDestination" ref="994993859"/>
-							<string key="NSLabel">value: meshCount</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">meshCount</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1241</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -3250,46 +2649,6 @@
 						<reference key="destination" ref="406016969"/>
 					</object>
 					<int key="connectionID">1265</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">enabled: runningNodeForcing</string>
-						<reference key="source" ref="742734642"/>
-						<reference key="destination" ref="976324537"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="742734642"/>
-							<reference key="NSDestination" ref="976324537"/>
-							<string key="NSLabel">enabled: runningNodeForcing</string>
-							<string key="NSBinding">enabled</string>
-							<string key="NSKeyPath">runningNodeForcing</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValueTransformerName</string>
-								<string key="NS.object.0">NSNegateBoolean</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1266</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">enabled: runningEdgeForcing</string>
-						<reference key="source" ref="406016969"/>
-						<reference key="destination" ref="976324537"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="406016969"/>
-							<reference key="NSDestination" ref="976324537"/>
-							<string key="NSLabel">enabled: runningEdgeForcing</string>
-							<string key="NSBinding">enabled</string>
-							<string key="NSKeyPath">runningEdgeForcing</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValueTransformerName</string>
-								<string key="NS.object.0">NSNegateBoolean</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1267</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -3340,6 +2699,678 @@
 					<int key="connectionID">1282</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">saveGraphViewToSVGViaPanel:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="197351844"/>
+					</object>
+					<int key="connectionID">1304</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">menu</string>
+						<reference key="source" ref="1039440026"/>
+						<reference key="destination" ref="670370985"/>
+					</object>
+					<int key="connectionID">552</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">print:</string>
+						<reference key="source" ref="1039440026"/>
+						<reference key="destination" ref="49223823"/>
+					</object>
+					<int key="connectionID">571</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dataSource</string>
+						<reference key="source" ref="1039440026"/>
+						<reference key="destination" ref="994993859"/>
+					</object>
+					<int key="connectionID">963</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">zoomIn:</string>
+						<reference key="source" ref="1039440026"/>
+						<reference key="destination" ref="1024779525"/>
+					</object>
+					<int key="connectionID">1088</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">zoomOut:</string>
+						<reference key="source" ref="1039440026"/>
+						<reference key="destination" ref="208940710"/>
+					</object>
+					<int key="connectionID">1089</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">resetView:</string>
+						<reference key="source" ref="1039440026"/>
+						<reference key="destination" ref="909129949"/>
+					</object>
+					<int key="connectionID">1224</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: runningEdgeForcing</string>
+						<reference key="source" ref="210774340"/>
+						<reference key="destination" ref="976324537"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="210774340"/>
+							<reference key="NSDestination" ref="976324537"/>
+							<string key="NSLabel">value: runningEdgeForcing</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">runningEdgeForcing</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">742</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.useConnectCompat</string>
+						<reference key="source" ref="940440202"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="940440202"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.useConnectCompat</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.useConnectCompat</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1234</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">selectedTag: values.edgeColorType</string>
+						<reference key="source" ref="510570477"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="510570477"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">selectedTag: values.edgeColorType</string>
+							<string key="NSBinding">selectedTag</string>
+							<string key="NSKeyPath">values.edgeColorType</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1162</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">makeKeyAndOrderFront:</string>
+						<reference key="source" ref="208242965"/>
+						<reference key="destination" ref="609285721"/>
+					</object>
+					<int key="connectionID">974</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeSpringConstant</string>
+						<reference key="source" ref="898038856"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="898038856"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeSpringConstant</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeSpringConstant</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1174</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeCoulombConstant</string>
+						<reference key="source" ref="734942761"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="734942761"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeCoulombConstant</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeCoulombConstant</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1176</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeMaxWidth</string>
+						<reference key="source" ref="273603020"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="273603020"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeMaxWidth</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeMaxWidth</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1184</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeAlpha</string>
+						<reference key="source" ref="768984584"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="768984584"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeAlpha</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeAlpha</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1148</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeLaneWidth</string>
+						<reference key="source" ref="330637999"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="330637999"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeLaneWidth</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeLaneWidth</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1180</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.useCompat</string>
+						<reference key="source" ref="62383973"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="62383973"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.useCompat</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.useCompat</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1233</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.showMesh</string>
+						<reference key="source" ref="73594085"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="73594085"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.showMesh</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.showMesh</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1158</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.showNodes</string>
+						<reference key="source" ref="377343712"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="377343712"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.showNodes</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.showNodes</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1160</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.useGPUDevice</string>
+						<reference key="source" ref="970713243"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="970713243"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.useGPUDevice</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.useGPUDevice</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1192</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">makeKeyAndOrderFront:</string>
+						<reference key="source" ref="18351206"/>
+						<reference key="destination" ref="197112383"/>
+					</object>
+					<int key="connectionID">983</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">displayPatternValue1: graphView.selectedMeshGroupWeight</string>
+						<reference key="source" ref="98545021"/>
+						<reference key="destination" ref="976324537"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="98545021"/>
+							<reference key="NSDestination" ref="976324537"/>
+							<string key="NSLabel">displayPatternValue1: graphView.selectedMeshGroupWeight</string>
+							<string key="NSBinding">displayPatternValue1</string>
+							<string key="NSKeyPath">graphView.selectedMeshGroupWeight</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSDisplayPattern</string>
+								<string key="NS.object.0">Group Weight: %{value1}@</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1318</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.bundleWidthPower</string>
+						<reference key="source" ref="746214341"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="746214341"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.bundleWidthPower</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.bundleWidthPower</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1188</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeSpringConstant</string>
+						<reference key="source" ref="888105885"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="888105885"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeSpringConstant</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeSpringConstant</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1170</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeCoulombConstant</string>
+						<reference key="source" ref="149399280"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="149399280"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeCoulombConstant</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeCoulombConstant</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1168</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeLaneWidth</string>
+						<reference key="source" ref="607044885"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="607044885"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeLaneWidth</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeLaneWidth</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1182</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeMaxWidth</string>
+						<reference key="source" ref="982145822"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="982145822"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeMaxWidth</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeMaxWidth</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1186</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeAlpha</string>
+						<reference key="source" ref="475056557"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="475056557"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeAlpha</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeAlpha</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1154</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.bundleWidthPower</string>
+						<reference key="source" ref="770269904"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="770269904"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.bundleWidthPower</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.bundleWidthPower</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1190</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.showMesh</string>
+						<reference key="source" ref="894931404"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="894931404"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.showMesh</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.showMesh</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1200</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.showNodes</string>
+						<reference key="source" ref="319958893"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="319958893"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.showNodes</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.showNodes</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1202</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.velocityDamping</string>
+						<reference key="source" ref="758180798"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="758180798"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.velocityDamping</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.velocityDamping</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1178</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.velocityDamping</string>
+						<reference key="source" ref="960494505"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="960494505"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.velocityDamping</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.velocityDamping</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1165</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.nodeSize</string>
+						<reference key="source" ref="731414421"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="731414421"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.nodeSize</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.nodeSize</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1150</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.nodeSize</string>
+						<reference key="source" ref="737331047"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="737331047"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.nodeSize</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.nodeSize</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1152</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">displayPatternValue1: graphView.selectedNodeLabel</string>
+						<reference key="source" ref="589510602"/>
+						<reference key="destination" ref="976324537"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="589510602"/>
+							<reference key="NSDestination" ref="976324537"/>
+							<string key="NSLabel">displayPatternValue1: graphView.selectedNodeLabel</string>
+							<string key="NSBinding">displayPatternValue1</string>
+							<string key="NSKeyPath">graphView.selectedNodeLabel</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSDisplayPattern</string>
+								<string key="NS.object.0">Label: %{value1}@</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1130</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">hidden: runningEdgeForcing</string>
+						<reference key="source" ref="512452294"/>
+						<reference key="destination" ref="976324537"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="512452294"/>
+							<reference key="NSDestination" ref="976324537"/>
+							<string key="NSLabel">hidden: runningEdgeForcing</string>
+							<string key="NSBinding">hidden</string>
+							<string key="NSKeyPath">runningEdgeForcing</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValueTransformerName</string>
+								<string key="NS.object.0">NSNegateBoolean</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1220</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">displayPatternValue1: FPSString</string>
+						<reference key="source" ref="512452294"/>
+						<reference key="destination" ref="976324537"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="512452294"/>
+							<reference key="NSDestination" ref="976324537"/>
+							<string key="NSLabel">displayPatternValue1: FPSString</string>
+							<string key="NSBinding">displayPatternValue1</string>
+							<string key="NSKeyPath">FPSString</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSDisplayPattern</string>
+								<string key="NS.object.0">%{value1}@ FPS</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1223</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: meshCount</string>
+						<reference key="source" ref="1000857933"/>
+						<reference key="destination" ref="994993859"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="1000857933"/>
+							<reference key="NSDestination" ref="994993859"/>
+							<string key="NSLabel">value: meshCount</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">meshCount</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1241</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">enabled: runningEdgeForcing</string>
+						<reference key="source" ref="406016969"/>
+						<reference key="destination" ref="976324537"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="406016969"/>
+							<reference key="NSDestination" ref="976324537"/>
+							<string key="NSLabel">enabled: runningEdgeForcing</string>
+							<string key="NSBinding">enabled</string>
+							<string key="NSKeyPath">runningEdgeForcing</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValueTransformerName</string>
+								<string key="NS.object.0">NSNegateBoolean</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1267</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">enabled: runningNodeForcing</string>
+						<reference key="source" ref="742734642"/>
+						<reference key="destination" ref="976324537"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="742734642"/>
+							<reference key="NSDestination" ref="976324537"/>
+							<string key="NSLabel">enabled: runningNodeForcing</string>
+							<string key="NSBinding">enabled</string>
+							<string key="NSKeyPath">runningNodeForcing</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValueTransformerName</string>
+								<string key="NS.object.0">NSNegateBoolean</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1266</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">value: values.edgeCoulombDecay</string>
 						<reference key="source" ref="856162963"/>
@@ -3382,26 +3413,6 @@
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">value: values.edgeMinWidth</string>
-						<reference key="source" ref="913073449"/>
-						<reference key="destination" ref="890272827"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="913073449"/>
-							<reference key="NSDestination" ref="890272827"/>
-							<string key="NSLabel">value: values.edgeMinWidth</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.edgeMinWidth</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSNullPlaceholder</string>
-								<string key="NS.object.0">0</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1301</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.edgeMinWidth</string>
 						<reference key="source" ref="265312912"/>
 						<reference key="destination" ref="890272827"/>
 						<object class="NSNibBindingConnector" key="connector">
@@ -3420,12 +3431,24 @@
 					<int key="connectionID">1302</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">saveGraphViewToSVGViaPanel:</string>
-						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="197351844"/>
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.edgeMinWidth</string>
+						<reference key="source" ref="913073449"/>
+						<reference key="destination" ref="890272827"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="913073449"/>
+							<reference key="NSDestination" ref="890272827"/>
+							<string key="NSLabel">value: values.edgeMinWidth</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.edgeMinWidth</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNullPlaceholder</string>
+								<string key="NS.object.0">0</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
 					</object>
-					<int key="connectionID">1304</int>
+					<int key="connectionID">1301</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -3466,26 +3489,6 @@
 						</object>
 					</object>
 					<int key="connectionID">1316</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">displayPatternValue1: graphView.selectedMeshGroupWeight</string>
-						<reference key="source" ref="98545021"/>
-						<reference key="destination" ref="976324537"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="98545021"/>
-							<reference key="NSDestination" ref="976324537"/>
-							<string key="NSLabel">displayPatternValue1: graphView.selectedMeshGroupWeight</string>
-							<string key="NSBinding">displayPatternValue1</string>
-							<string key="NSKeyPath">graphView.selectedMeshGroupWeight</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSDisplayPattern</string>
-								<string key="NS.object.0">Group Weight: %{value1}@</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1318</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">

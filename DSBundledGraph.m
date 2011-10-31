@@ -606,39 +606,30 @@ cl_uint TriIndex(cl_uint row, cl_uint col, cl_uint N)
 - (void)loadDefaultGraph {
 	[self reset];
 	
-	[self addNode:MakeFloat2(20, 20) withLabel:@"Lower Left"];
-	[self addNode:MakeFloat2(20, 27) withLabel:@"Lower Right"];
-	[self addNode:MakeFloat2(25, 27) withLabel:@"Upper Right"];
-	[self addNode:MakeFloat2(25, 20) withLabel:@"Upper Left"];
-	
-	[self scaleNodes];
-	
-	[self addEdgeFromIndex:0 toIndex:1 weight:2.0];
-	[self addEdgeFromIndex:2 toIndex:3 weight:1.0];
-	
-	[self normalizeEdgeWeights];
-	[self calcEdgeCompatibilities];
-}
-
-- (void)setupTest5 {
-	[self reset];
-	
-	[self addNode:MakeFloat2(0, 50)];
-	[self addNode:MakeFloat2(0, -50)];
-	[self addNode:MakeFloat2(50, 0)];
-	[self addNode:MakeFloat2(-50, 0)];
-	
-	[self scaleNodes];
-	
-	[self addEdgeFromIndex:0 toIndex:1 weight:1.0];
-	[self addEdgeFromIndex:2 toIndex:3 weight:1.0];
-	//[self addEdgeFromIndex:0 toIndex:2 weight:1.0];
-	//[self addEdgeFromIndex:1 toIndex:3 weight:1.0];
+	[self addNode:MakeFloat2(-50, 0) withLabel:@"Apples"];
+	[self addNode:MakeFloat2(-50, 10) withLabel:@"Oranges"];
+	[self addNode:MakeFloat2(-50, 20) withLabel:@"Bananas"];
+	[self addNode:MakeFloat2(-50, 30) withLabel:@"Pineapples"];
     
+	[self addNode:MakeFloat2(50, 0) withLabel:@"Pears"];
+	[self addNode:MakeFloat2(50, 10) withLabel:@"Peaches"];
+	[self addNode:MakeFloat2(50, 20) withLabel:@"Watermellons"];
+	[self addNode:MakeFloat2(50, 30) withLabel:@"Grapes"];
+	
+	[self scaleNodes];
+	
+	[self addEdgeFromIndex:0 toIndex:4 weight:1.0];
+    [self addEdgeFromIndex:0 toIndex:5 weight:1.0];
+    [self addEdgeFromIndex:1 toIndex:4 weight:1.0];
+    [self addEdgeFromIndex:1 toIndex:5 weight:1.0];
+    [self addEdgeFromIndex:2 toIndex:6 weight:1.0];
+    [self addEdgeFromIndex:2 toIndex:7 weight:1.0];
+    [self addEdgeFromIndex:3 toIndex:6 weight:1.0];
+    [self addEdgeFromIndex:3 toIndex:7 weight:1.0];
+	
 	[self normalizeEdgeWeights];
 	[self calcEdgeCompatibilities];
 }
-
 
 @synthesize edgeMeshes;
 @synthesize edgeWeights;

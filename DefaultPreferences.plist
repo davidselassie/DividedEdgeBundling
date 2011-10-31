@@ -21,11 +21,11 @@
 	<key>edgeMinWidth</key>
 	<integer>0</integer>
 	<key>edgeSpringConstant</key>
-	<real>0.5</real>
+	<integer>1</integer>
 	<key>nodeSize</key>
-	<real>5</real>
+	<integer>5</integer>
 	<key>nodeSpringConstant</key>
-	<real>0.1</real>
+	<integer>1</integer>
 	<key>nodeSpringRestLength</key>
 	<integer>200</integer>
 	<key>showMesh</key>
@@ -41,6 +41,6 @@
 	<key>useNewForce</key>
 	<true/>
 	<key>velocityDamping</key>
-	<real>0.9</real>
+	<real>0.8</real>
 </dict>
 </plist>
