@@ -702,14 +702,16 @@ cl_uint TriIndex(cl_uint row, cl_uint col, cl_uint N)
 	cl_int err;
 	if (!edgeListInCL) {
 		edgeListInCL = clCreateBuffer(clContext, CL_MEM_READ_ONLY, edgeListSize, NULL, &err);
-		assert(err == CL_SUCCESS);
-		err = clEnqueueWriteBuffer(clQueue, edgeListInCL, CL_TRUE, 0, edgeListSize,
-								   (void *)edgeList, 0, NULL, NULL);
-		assert(err == CL_SUCCESS);
+		assert(err == CL_SUCCESS || edgeCount == 0);
+        if (edgeListInCL) {
+            err = clEnqueueWriteBuffer(clQueue, edgeListInCL, CL_TRUE, 0, edgeListSize,
+                                       (void *)edgeList, 0, NULL, NULL);
+        }
+		assert(err == CL_SUCCESS || edgeCount == 0);
 	}
 	if (!nodeDistancesInCL) {
 		nodeDistancesInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, nodeDistancesSize, NULL, &err);
-		assert(err == CL_SUCCESS);
+		assert(err == CL_SUCCESS || nodeCount == 0);
 	}
 	
 	clFinish(clQueue);
@@ -827,24 +829,29 @@ cl_uint TriIndex(cl_uint row, cl_uint col, cl_uint N)
 	assert(err == CL_SUCCESS);
 	if (!edgeCompatsInCL) {
 		edgeCompatsInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, edgeCalcSize, NULL, &err);
-		assert(err == CL_SUCCESS);
+		assert(err == CL_SUCCESS || edgeCount == 0);
 	}
 	if (!edgeDotsInCL) {
 		edgeDotsInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, edgeCalcSize, NULL, &err);
-		assert(err == CL_SUCCESS);
+		assert(err == CL_SUCCESS || edgeCount == 0);
 	}
 	if (!edgeListInCL) {
 		edgeListInCL = clCreateBuffer(clContext, CL_MEM_READ_ONLY, edgeListSize, NULL, &err);
-		assert(err == CL_SUCCESS);
-		err = clEnqueueWriteBuffer(clQueue, edgeListInCL, CL_TRUE, 0, edgeListSize,
-								   (void *)edgeList, 0, NULL, NULL);
+		assert(err == CL_SUCCESS || edgeCount == 0);
+        if (edgeListInCL) {
+            err = clEnqueueWriteBuffer(clQueue, edgeListInCL, CL_TRUE, 0, edgeListSize,
+                                       (void *)edgeList, 0, NULL, NULL);
+        }
 		assert(err == CL_SUCCESS);
 	}
 	if (!nodeDistancesInCL) {
 		nodeDistancesInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, nodeDistancesSize, NULL, &err);
-		err = clEnqueueWriteBuffer(clQueue, nodeDistancesInCL, CL_TRUE, 0, nodeDistancesSize,
-								   (void *)nodeDistances, 0, NULL, NULL);
-		assert(err == CL_SUCCESS);
+        assert(err == CL_SUCCESS || nodeCount == 0);
+        if (nodeDistancesInCL) {
+            err = clEnqueueWriteBuffer(clQueue, nodeDistancesInCL, CL_TRUE, 0, nodeDistancesSize,
+                                       (void *)nodeDistances, 0, NULL, NULL);
+        }
+		assert(err == CL_SUCCESS || nodeCount == 0);
 	}
 	
 	clFinish(clQueue);
@@ -993,49 +1000,61 @@ cl_uint TriIndex(cl_uint row, cl_uint col, cl_uint N)
 	cl_int err;
 	if (!edgeMeshesInCL) {
 		edgeMeshesInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, unionMeshSize, NULL, &err);
-		assert(err == CL_SUCCESS);
-		err = clEnqueueWriteBuffer(clQueue, edgeMeshesInCL, CL_TRUE, 0, unionMeshSize,
-								   (void *)edgeMeshes, 0, NULL, NULL);
+		assert(err == CL_SUCCESS || edgeCount == 0);
+        if (edgeMeshesInCL) {
+            err = clEnqueueWriteBuffer(clQueue, edgeMeshesInCL, CL_TRUE, 0, unionMeshSize,
+                                       (void *)edgeMeshes, 0, NULL, NULL);
+        }
 		assert(err == CL_SUCCESS);
 	}
 	if (!edgeCompatsInCL) {
 		edgeCompatsInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, edgeCalcSize, NULL, &err);
-		assert(err == CL_SUCCESS);
-		err = clEnqueueWriteBuffer(clQueue, edgeCompatsInCL, CL_TRUE, 0, edgeCalcSize,
-								   (void *)edgeCompats, 0, NULL, NULL);
+		assert(err == CL_SUCCESS || edgeCount == 0);
+        if (edgeCompatsInCL) {
+            err = clEnqueueWriteBuffer(clQueue, edgeCompatsInCL, CL_TRUE, 0, edgeCalcSize,
+                                       (void *)edgeCompats, 0, NULL, NULL);
+        }
 		assert(err == CL_SUCCESS);
 	}
 	if (!edgeDotsInCL) {
 		edgeDotsInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, edgeCalcSize, NULL, &err);
-		assert(err == CL_SUCCESS);
-		err = clEnqueueWriteBuffer(clQueue, edgeDotsInCL, CL_TRUE, 0, edgeCalcSize,
-								   (void *)edgeDots, 0, NULL, NULL);
+		assert(err == CL_SUCCESS || edgeCount == 0);
+        if (edgeDotsInCL) {
+            err = clEnqueueWriteBuffer(clQueue, edgeDotsInCL, CL_TRUE, 0, edgeCalcSize,
+                                       (void *)edgeDots, 0, NULL, NULL);
+        }
 		assert(err == CL_SUCCESS);
 	}
 	if (!edgeWeightsInCL) {
 		edgeWeightsInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, sizeof(cl_float) * edgeCount, NULL, &err);
-		assert(err == CL_SUCCESS);
-		err = clEnqueueWriteBuffer(clQueue, edgeWeightsInCL, CL_TRUE, 0, sizeof(cl_float) * edgeCount,
-								   (void *)edgeWeights, 0, NULL, NULL);
+		assert(err == CL_SUCCESS || edgeCount == 0);
+        if (edgeWeightsInCL) {
+            err = clEnqueueWriteBuffer(clQueue, edgeWeightsInCL, CL_TRUE, 0, sizeof(cl_float) * edgeCount,
+                                       (void *)edgeWeights, 0, NULL, NULL);
+        }
 		assert(err == CL_SUCCESS);
 	}
 	if (!edgeMeshVelocitiesInCL) {
 		edgeMeshVelocitiesInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, unionMeshSize, NULL, &err);
-		assert(err == CL_SUCCESS);
-		err = clEnqueueWriteBuffer(clQueue, edgeMeshVelocitiesInCL, CL_TRUE, 0, unionMeshSize,
-								   (void *)edgeMeshVelocities, 0, NULL, NULL);
+		assert(err == CL_SUCCESS || edgeCount == 0);
+        if (edgeMeshVelocitiesInCL) {
+            err = clEnqueueWriteBuffer(clQueue, edgeMeshVelocitiesInCL, CL_TRUE, 0, unionMeshSize,
+                                       (void *)edgeMeshVelocities, 0, NULL, NULL);
+        }
 		assert(err == CL_SUCCESS);
 	}
 	if (!edgeMeshAccelerationsInCL) {
 		edgeMeshAccelerationsInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, unionMeshSize, NULL, &err);
-		assert(err == CL_SUCCESS);
-		err = clEnqueueWriteBuffer(clQueue, edgeMeshAccelerationsInCL, CL_TRUE, 0, unionMeshSize,
-								   (void *)edgeMeshAccelerations, 0, NULL, NULL);
+		assert(err == CL_SUCCESS || edgeCount == 0);
+        if (edgeMeshAccelerationsInCL) {
+            err = clEnqueueWriteBuffer(clQueue, edgeMeshAccelerationsInCL, CL_TRUE, 0, unionMeshSize,
+                                       (void *)edgeMeshAccelerations, 0, NULL, NULL);
+        }
 		assert(err == CL_SUCCESS);
 	}
 	if (!edgeMeshGroupWeightsInCL) {
 		edgeMeshGroupWeightsInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, groupCountSize, NULL, &err);
-		assert(err == CL_SUCCESS);
+		assert(err == CL_SUCCESS || edgeCount == 0);
 	}
 	
 	clFinish(clQueue);
@@ -1118,16 +1137,18 @@ cl_uint TriIndex(cl_uint row, cl_uint col, cl_uint N)
 	cl_int err;
 	if (!edgeMeshesInCL) {
 		edgeMeshesInCL = clCreateBuffer(clContext, CL_MEM_READ_WRITE, unionMeshSize, NULL, &err);
-		assert(err == CL_SUCCESS);
+		assert(err == CL_SUCCESS || edgeCount == 0);
         // Don't copy in since the smoothing code writes every position form the originalEdgeMeshesInCL list.
 		//err = clEnqueueWriteBuffer(clQueue, edgeMeshesInCL, CL_TRUE, 0, unionMeshSize,
 		//						   (void *)edgeMeshes, 0, NULL, NULL);
 		//assert(err == CL_SUCCESS);
 	}
     cl_mem originalEdgeMeshesInCL = clCreateBuffer(clContext, CL_MEM_READ_ONLY, unionMeshSize, NULL, &err);
-    assert(err == CL_SUCCESS);
-    err = clEnqueueWriteBuffer(clQueue, originalEdgeMeshesInCL, CL_TRUE, 0, unionMeshSize,
-    						   (void *)edgeMeshes, 0, NULL, NULL);
+    assert(err == CL_SUCCESS || edgeCount == 0);
+    if (originalEdgeMeshesInCL) {
+        err = clEnqueueWriteBuffer(clQueue, originalEdgeMeshesInCL, CL_TRUE, 0, unionMeshSize,
+                                   (void *)edgeMeshes, 0, NULL, NULL);
+    }
     assert(err == CL_SUCCESS);
 	
 	clFinish(clQueue);
